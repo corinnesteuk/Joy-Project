@@ -1,8 +1,7 @@
 
-import os
 import datetime
 import csv
-
+import subprocess
 
 # set up scraping and error logs
 
@@ -36,12 +35,19 @@ def scrape_month(year, month, num_days):
         print(command)
 
 
+
         # try scraping a specific day and log whether that date was fully scraped or raised an error
         try:
-            os.system(command)
-
-
+            subprocess.check_call(command, shell = True)
+            
+            
+            with open('ScrapingLog.csv', 'a', newline='') as csvfile:
+                errorwriter = csv.writer(csvfile)
+                errorwriter.writerow([str(date)])
+          
+       
         except: 
+
 
             with open('TweetErrors.csv', 'a', newline='') as csvfile:
                 errorwriter = csv.writer(csvfile)
@@ -51,9 +57,9 @@ def scrape_month(year, month, num_days):
 
      
 # list out the days in each month for years we are interested in
-month_days_2019 = {10: 31, 11: 30, 12: 31}
+month_days_2019 = {9:30, 10: 31, 11: 30, 12: 31}
 month_days_2020 = {1: 31, 2: 29, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31}            
-month_days_2021 = {1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31}
+month_days_2021 = {1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30}
 
 
 
