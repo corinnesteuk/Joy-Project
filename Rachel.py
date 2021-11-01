@@ -6,11 +6,11 @@ import snscrape
 
 # set up scraping and error logs
 
-with open('TweetErrors2021.csv', 'w', newline='') as csvfile:
+with open('TweetErrors2021-Sep-Dec.csv', 'w', newline='') as csvfile:
     errorwriter = csv.writer(csvfile)
     errorwriter.writerow(['Date'])
 
-with open('ScrapingLog2021.csv', 'w', newline='') as csvfile:
+with open('ScrapingLog2021-Sep-Dec.csv', 'w', newline='') as csvfile:
     scraperwriter = csv.writer(csvfile)
     scraperwriter.writerow(['Days Scraped'])
 
@@ -42,7 +42,7 @@ def scrape_month(year, month, num_days):
             subprocess.check_call(command, shell = True)
             
             
-            with open('ScrapingLog2021.csv', 'a', newline='') as csvfile:
+            with open('ScrapingLog2021-Sep-Dec.csv', 'a', newline='') as csvfile:
                 errorwriter = csv.writer(csvfile)
                 errorwriter.writerow([str(date)])
           
@@ -50,7 +50,7 @@ def scrape_month(year, month, num_days):
         except: 
 
 
-            with open('TweetErrors2021.csv', 'a', newline='') as csvfile:
+            with open('TweetErrors2021-Sep-Dec.csv', 'a', newline='') as csvfile:
                 errorwriter = csv.writer(csvfile)
                 errorwriter.writerow([str(date)])
         

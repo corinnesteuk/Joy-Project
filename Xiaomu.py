@@ -6,11 +6,11 @@ import snscrape
 
 # set up scraping and error logs
 
-with open('/Joy Project/Joy_Project_Data/TweetErrors2020-5-12.csv', 'w', newline='') as csvfile:
+with open('TweetErrors2020-May-Dec.csv', 'w', newline='') as csvfile:
     errorwriter = csv.writer(csvfile)
     errorwriter.writerow(['Date'])
 
-with open('/Joy Project/Joy_Project_Data/ScrapingLog2020-5-12.csv', 'w', newline='') as csvfile:
+with open('ScrapingLog2020-May-Dec.csv', 'w', newline='') as csvfile:
     scraperwriter = csv.writer(csvfile)
     scraperwriter.writerow(['Days Scraped'])
 
@@ -32,7 +32,7 @@ def scrape_month(year, month, num_days):
 
         next_day = date + datetime.timedelta(days=1)
 
-        command = 'snscrape --jsonl --progress --since ' + str(date) + " twitter-search 'until:" + str(next_day) + ' near:"Chicago"' + "' > /Joy Project/Joy_Project_Data/tweets-" + str(date) + ".json"
+        command = 'snscrape --jsonl --progress --since ' + str(date) + " twitter-search 'until:" + str(next_day) + ' near:"Chicago"' + "' > tweets-" + str(date) + ".json"
         print(command)
 
 
@@ -42,7 +42,7 @@ def scrape_month(year, month, num_days):
             subprocess.check_call(command, shell = True)
             
             
-            with open('/Joy Project/Joy_Project_Data/ScrapingLog2020-5-12.csv', 'a', newline='') as csvfile:
+            with open('ScrapingLog2020-May-Dec.csv', 'a', newline='') as csvfile:
                 errorwriter = csv.writer(csvfile)
                 errorwriter.writerow([str(date)])
           
@@ -50,7 +50,7 @@ def scrape_month(year, month, num_days):
         except: 
 
 
-            with open('/Joy Project/Joy_Project_Data/TweetErrors2020-5-12.csv', 'a', newline='') as csvfile:
+            with open('TweetErrors2020-May-Dec.csv', 'a', newline='') as csvfile:
                 errorwriter = csv.writer(csvfile)
                 errorwriter.writerow([str(date)])
         
