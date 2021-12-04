@@ -1,14 +1,12 @@
+
 import re
 import pandas as pd
 import json
 import nltk
+import matplotlib.pylab as plt
 
 
-with open('tweets-2019-09-01-02.json', 'r') as f:
-    data = json.load(f)
-
-df = pd.DataFrame(data['tweets'])
-
+# count number of joy tweets for each month and store the indices in a dictionary
 def count_joy_tweets(list_months):
 
     monthly_joy_tweets = {}
@@ -46,8 +44,9 @@ def count_joy_tweets(list_months):
             tweet = ' '.join(words)
             new_tweets.append(tweet)
 
-        joy_counts[month] = counter
-        monthly_joy_tweets[month] = joy_indices
+        month_str = str(month[0]) + '/' + str(month[1])
+        joy_counts[month_str] = counter
+        monthly_joy_tweets[month_str] = joy_indices
         df['content'] = new_tweets
         
     return joy_counts, monthly_joy_tweets
@@ -64,3 +63,12 @@ for date in dates:
 
 
 joy_counts, monthly_joy_tweets = count_joy_tweets(months)
+
+# plot frequency of joy tweets for each month
+plt.plot(joy_counts.keys(), joy_counts.values())
+
+# add title and axis names
+plt.title('Monthly Joy Tweets')
+plt.xlabel('Month')
+plt.ylabel('# Joy Tweets')
+plt.show()
