@@ -1,4 +1,3 @@
-
 import re
 import pandas as pd
 import json
@@ -10,32 +9,50 @@ with open('tweets-2019-09-01-02.json', 'r') as f:
 
 df = pd.DataFrame(data['tweets'])
 
-# convert tweets to all lowercase, tokenize and remove punctuation
-counter = 0
-joy_indices = []
-new_tweets = []
+def count_joy_tweets(list_months):
 
-for tweet in df['content']:
+    monthly_joy_tweets = {}
+    joy_counts = {}
 
-    tweet = tweet.lower()
-    tokenizer = nltk.RegexpTokenizer(r"\w+")
-    words = tokenizer.tokenize(tweet)
-    tweet = ' '.join(words)
-    new_tweets.append(tweet)
+    for month in list_months:
 
-    if 'joy' in words:
-        # create an indicator variable ijoy (if joy is in the tweet)
-        # store with indexes instead
-        df['ijoy'] = True
-        print(tweet)
-        counter += 1
-    else:
-        df['ijoy'] = False
+        file = 'tweets-' + str(month[0]) + '-' + str(month[1]) + '.json'
+        with open(file, 'r') as f:
+            data = json.load(f)
 
-df['content'] = new_tweets
-print(counter)
+        df = pd.DataFrame(data['tweets'])
+
+        counter = 0
+        joy_indices = []
+        new_tweets = []
+
+        for tweet in df['content']:
+    
+            tokenizer = nltk.RegexpTokenizer(r"\w+")
+            words = tokenizer.tokenize(tweet)
 
 
+            if 'joy' in words:
+                # create an indicator variable ijoy (if joy is in the tweet)
+                df['ijoy'] = 1
+                counter += 1
+                unique_index = pd.Index(df['content'])
+                joy_indices.append(unique_index.get_loc(tweet))
+
+            else:
+                df['ijoy'] = 0
+
+            tweet = tweet.lower()
+            tweet = ' '.join(words)
+            new_tweets.append(tweet)
+
+        joy_counts[month] = counter
+        monthly_joy_tweets[month] = joy_indices
+        df['content'] = new_tweets
+        
+    return joy_counts, monthly_joy_tweets
+
+# create a list of months to loop through for counting joy tweets 
 dates = pd.date_range(start = '09/01/2019', end = '09/30/2021', freq = 'M')
 
 months = []
@@ -45,8 +62,5 @@ for date in dates:
     month = date[1]
     months.append([month, year])
 
-print(months)
 
-for month in months:
-
-    file = 'tweets-' 
+joy_counts, monthly_joy_tweets = count_joy_tweets(months)
