@@ -28,12 +28,14 @@ def reformat_json(file):
 # create a list of months to loop through for counting joy tweets 
 dates = pd.date_range(start = '09/01/2019', end = '09/30/2021', freq = 'M')
 
+
 months = []
 for date in dates:
     date = str(date).split('-')
     year = date[0]
     month = date[1]
     months.append([month, year])
+
 
 
 for month in months:
