@@ -74,6 +74,8 @@ plt.plot(joy_counts.keys(), joy_counts.values())
 plt.title('Figure 1: Monthly Joy Tweets')
 plt.xlabel('Month')
 plt.ylabel('# Joy Tweets')
+plt.xticks(rotation=90)
+plt.subplots_adjust(bottom=0.15)
 
 # create points for max and min
 joy_max = max(joy_counts, key = joy_counts.get)
