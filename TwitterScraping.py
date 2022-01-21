@@ -63,7 +63,7 @@ month_days_2020 = {1: 31, 2: 29, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30
 month_days_2021 = {1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30}
 
 
-
+'''
 # scrape tweets from all days in last three months of 2019
 for month in month_days_2019.keys():
     scrape_month(2019, month, month_days_2019[month])
@@ -77,6 +77,19 @@ for month in month_days_2020.keys():
 # scrape tweets from all days in 2021
 for month in month_days_2021.keys():
     scrape_month(2021, month, month_days_2021[month])
+'''
+
+
+# collect additional most recent data
+new_data_2021 = {10: 31, 11: 30, 12: 31}
+new_data_2022 = {1: 31}
+
+
+for month in new_data_2021.keys():
+    scrape_month(2021, month, new_data_2021[month])
+
+for month in new_data_2022.keys():
+    scrape_month(2022, month, new_data_2022[month])
 
 
 
