@@ -24,7 +24,7 @@ def reformat_json(file):
     with open(file, 'w') as f2:
         json.dump(output_dict, f2)
 
-
+# this reformats the json files for each MONTH
 # create a list of months to loop through for counting joy tweets 
 dates = pd.date_range(start = '09/01/2019', end = '09/30/2021', freq = 'M')
 

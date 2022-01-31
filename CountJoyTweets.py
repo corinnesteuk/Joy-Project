@@ -15,7 +15,7 @@ def count_joy_tweets(list_months):
 
     for month in list_months:
 
-        file = 'tweets-' + str(month[0]) + '-' + str(month[1]) + '.json'
+        file = 'L:\Joy/Data/tweets-' + str(month[0]) + '-' + str(month[1]) + '.json'
         with open(file, 'r') as f:
             data = json.load(f)
 
