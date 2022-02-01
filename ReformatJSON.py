@@ -3,9 +3,12 @@ import re
 import pandas as pd
 import json
 
+
+# reformat json file to contain an array of all tweets 
+# so it can be easily read in by json.loads function
+
 def reformat_json(file):
 
-    # reformat json file to contain an array of all tweets so it can be easily read in by json.loads function
     json_string = ""
 
     with open(file) as f: 
@@ -24,9 +27,10 @@ def reformat_json(file):
     with open(file, 'w') as f2:
         json.dump(output_dict, f2)
 
+
 # this reformats the json files for each MONTH
-# create a list of months to loop through for counting joy tweets 
-dates = pd.date_range(start = '09/01/2019', end = '09/30/2021', freq = 'M')
+# create a list of months to loop through 
+dates = pd.date_range(start = '10/01/2021', end = '01/31/2022', freq = 'M')
 
 
 months = []
@@ -37,9 +41,8 @@ for date in dates:
     months.append([month, year])
 
 
-
+# reformat JSON file for each month
 for month in months:
 
-    file_name = 'tweets-' + str(month[0]) + '-' + str(month[1]) + '.json'
+    file_name = 'L:\Joy/Data/tweets-' + str(month[0]) + '-' + str(month[1]) + '.json'
     reformat_json(file_name)
-    
