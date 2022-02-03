@@ -8,7 +8,6 @@ input = '2021/05/25'
 
 # format
 format = '%Y/%m/%d'
-
 # convert from string format to datetime format
 datetime = datetime.datetime.strptime(input, format)
 dates = pd.date_range(start = '09/01/2019', end = '12/31/2021', freq = 'M')
