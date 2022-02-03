@@ -6,8 +6,12 @@ import matplotlib.pylab as plt
 from prettytable import PrettyTable
 import csv
 
+total_tweets = {}
+total_tweets['09-2019'] = '440896'    
 with open('L:\Joy/Joy-Project/Total-Tweets-Per-Month.csv','r') as f:
-    total_tweets = csv.DictReader(f)
+    reader = csv.DictReader(f)
+    for row in reader:
+        total_tweets[row['09-2019']] = row['440896']
 
 '''Count number of joy tweets for each month and store the indices in a dictionary'''
 def count_joy_tweets(list_months):
@@ -71,9 +75,10 @@ for date in dates:
 joy_counts, monthly_joy_indicies = count_joy_tweets(months)
 
 #ceates a dictionary with the month as the key and the proportion of joy tweets as the value
+freq_joy = {}
 idx = list(range(0, len(joy_counts)))
 for i in idx:
-    freq_joy[list(joy_counts)[i]] = list(joy_counts.values())[i]/list(total_tweets.values())[i]
+    freq_joy[list(joy_counts)[i]] = int(list(joy_counts.values())[i])/int(list(total_tweets.values())[i])
 
 
 
@@ -104,7 +109,7 @@ table = PrettyTable()
 table.title = 'Figure 2'
 table.field_names = ['Month', '# Joy Tweets', 'Total # of Tweets', 'Proportion of Joy Tweets']
 for i in idx:
-    table.add_row(list(joy_counts.keys())[i], list(total_tweets.values())[i]), list(freq_joy.values())[i])
+    table.add_row(list(joy_counts.keys())[i], list(total_tweets.values())[i]), list(freq_joy.values()[i])
 print(table)
 
 table_str = table.get_string()
