@@ -11,7 +11,6 @@ format = '%Y/%m/%d'
 # convert from string format to datetime format
 datetime = datetime.datetime.strptime(input, format)
 dates = pd.date_range(start = '09/01/2019', end = '12/31/2021', freq = 'M')
-
 list_months = []
 for date in dates:
     date = str(date).split('-')
