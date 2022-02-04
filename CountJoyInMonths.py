@@ -1,5 +1,7 @@
 import pandas as pd
 import csv
+import json
+import nltk
 
 '''This code counts the number of instances of joy in the monthly tweet files and writes to a CSV'''
 
@@ -39,10 +41,11 @@ def count_joy_tweets(list_months):
             tweet = ' '.join(words)
             new_tweets.append(tweet)
 
-        month_str = str(month[0]) + '/' + str(month[1])
+        month_str = str(month[0]) + '-' + str(month[1])
         joy_counts[month_str] = counter
         monthly_joy_indicies[month_str] = joy_indices
         df['content'] = new_tweets
+        print(month_str)
 
     return joy_counts, monthly_joy_indicies
 
@@ -56,21 +59,9 @@ for date in dates:
     year = date[0]
     month = date[1]
     months.append([month, year])
-
-# joy_counts, monthly_joy_indicies = count_joy_tweets(months)
-# fields = ['Date', 'Number of Joy Tweets']
-# new_path = open("Joy-Tweets-Per-Month.csv", "w")
-# z = csv.writer(new_path)
-# z.writerow(fields)
-# for new_k, new_v in joy_count.items():
-#     z.writerow([new_k, new_v])
-#new_path.close()
-
-monthly_indices = {'09/2019': [1, 2, 3], '10/2019': [4, 5, 6],'11/2019': [7, 8, 9]}
-df_indx = pd.DataFrame(monthly_indices)
-df_indx.to_csv("Joy-Tweets-Per-Month.csv", mode = 'a' )
-#print(df_indx)
+joy_counts, monthly_indices = count_joy_tweets(months)
 
 
-
+df_indx = pd.DataFrame.from_dict(joy_counts, orient = 'index', columns = ['Joy Tweets'])
+df_indx.to_csv("Joy-Tweets-Per-Month.csv", mode = 'w' )
 
