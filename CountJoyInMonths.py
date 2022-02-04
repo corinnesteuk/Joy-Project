@@ -57,19 +57,9 @@ for date in dates:
     month = date[1]
     months.append([month, year])
 
-# joy_counts, monthly_joy_indicies = count_joy_tweets(months)
-# fields = ['Date', 'Number of Joy Tweets']
-# new_path = open("Joy-Tweets-Per-Month.csv", "w")
-# z = csv.writer(new_path)
-# z.writerow(fields)
-# for new_k, new_v in joy_counts.items():
-#     z.writerow([new_k, new_v])
-# new_path.close()
 
-monthly_indices = {'09-2019': [2], '10-2019': [3],'11-2019': [4]}
-df_indx = pd.DataFrame.from_dict(monthly_indices, orient = 'index', columns = ['Joy Tweets'])
-
-print(df_indx)
+joy_counts= {'09-2019': [2], '10-2019': [3],'11-2019': [4]}
+df_indx = pd.DataFrame.from_dict(joy_counts, orient = 'index', columns = ['Joy Tweets'])
 df_indx.to_csv("Joy-Tweets-Per-Month.csv", mode = 'w' )
 
 
