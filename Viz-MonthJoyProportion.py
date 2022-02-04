@@ -8,8 +8,11 @@ import csv
 
 total_tweets = pd.read_csv('Total-Tweets-Per-Month.csv', names= ['Date', 'Total Tweets'])
 total_tweets = total_tweets.set_index('Date')
-joy_tweets = pd.read_csv('Joy-Tweets-Per-Month.csv', names= ['Date', '# Joy Tweets'])
-#joy_tweets = joy_tweets.set_index('Date')
+joy_tweets = pd.read_csv('Joy-Tweets-Per-Month.csv')
+joy_tweets = joy_tweets.set_index('Unnamed: 0')
+joy_tweets = joy_tweets.rename_axis(["Date"])
+
+print(total_tweets)
 print(joy_tweets)
 
 # #ceates a dictionary with the month as the key and the proportion of joy tweets as the value

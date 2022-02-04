@@ -39,7 +39,7 @@ def count_joy_tweets(list_months):
             tweet = ' '.join(words)
             new_tweets.append(tweet)
         print(month_str)
-        month_str = str(month[0]) + '/' + str(month[1])
+        month_str = str(month[0]) + '-' + str(month[1])
         joy_counts[month_str] = counter
         monthly_joy_indicies[month_str] = joy_indices
         df['content'] = new_tweets
@@ -66,10 +66,8 @@ for date in dates:
 #     z.writerow([new_k, new_v])
 # new_path.close()
 
-monthly_indices = {'09/2019': [2], '10/2019': [3],'11/2019': [4]}
-df_indx = pd.DataFrame(monthly_indices)
-df_indx = df_indx._set_axis_name(['Date'])
-df_indx = df_indx.T
+monthly_indices = {'09-2019': [2], '10-2019': [3],'11-2019': [4]}
+df_indx = pd.DataFrame.from_dict(monthly_indices, orient = 'index', columns = ['Joy Tweets'])
 
 print(df_indx)
 df_indx.to_csv("Joy-Tweets-Per-Month.csv", mode = 'w' )
