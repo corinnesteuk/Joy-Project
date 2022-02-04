@@ -56,7 +56,7 @@ for date in dates:
     year = date[0]
     month = date[1]
     months.append([month, year])
-
+joy_counts, monthly_indices = count_joy_tweets(months)
 
 joy_counts= {'09-2019': [2], '10-2019': [3],'11-2019': [4]}
 df_indx = pd.DataFrame.from_dict(joy_counts, orient = 'index', columns = ['Joy Tweets'])
