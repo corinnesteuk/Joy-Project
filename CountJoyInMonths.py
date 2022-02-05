@@ -1,6 +1,6 @@
 import pandas as pd
 import csv
-
+import json
 '''This code counts the number of instances of joy in the monthly tweet files and writes to a CSV'''
 
 # count number of joy tweets for each month and store the indices in a dictionary
