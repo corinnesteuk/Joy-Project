@@ -51,7 +51,7 @@ def count_joy_tweets(list_months):
 
 
 # create a list of months to loop through for counting joy tweets
-dates = pd.date_range(start='09/01/2019', end='09/30/2021', freq='M')
+dates = pd.date_range(start='09/01/2019', end='12/31/2021', freq='M')
 
 months = []
 for date in dates:
