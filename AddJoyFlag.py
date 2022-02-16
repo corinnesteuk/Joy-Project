@@ -12,7 +12,9 @@ import nltk
 #     months.append([month, year])
 
     # for m in months:
-file = 'tweets-11-2021.json'
+    #file = 'tweets-' + str(month[0]) + '-' + str(month[1]) + '.json'
+m = ['11', '2021']
+file = '/Users/corinnesteuk/Downloads/tweets-11-2021.json'
 with open(file, 'r') as f:
     data = json.load(f)
 
@@ -26,7 +28,6 @@ for t in data['tweets']:
     t['place'] = t['place']['fullName']
     t['coordinates'] = [t['coordinates']['longitude'], t['coordinates']['latitude']]
 df = pd.DataFrame(data['tweets'])
-#df = df.set_index('id')
 
 new_tweets = []
 ijoy = []
@@ -39,7 +40,6 @@ for tweet in df['content']:
     if 'joy' in words:
         # create an indicator variable ijoy (if joy is in the tweet)
         ijoy.append(1)
-        #print(tweet)
 
     else:
         ijoy.append(0)
@@ -48,7 +48,5 @@ for tweet in df['content']:
     new_tweets.append(tweet)
 
 df['ijoy'] = ijoy
-
-print(df['ijoy'].unique())
-print(df.query('ijoy == 1'))
-# print(df.where(df['ijoy'] = 1))
+df_joy = df.query('ijoy == 1')
+df_joy.to_csv(str(m[0]) + '-' + str(m[1]) + '.csv', mode = 'w' )
