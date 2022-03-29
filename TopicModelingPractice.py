@@ -102,8 +102,30 @@ def plot_top_words(model, feature_names, n_top_words, title):
     plt.subplots_adjust(top=0.90, bottom=0.05, wspace=0.90, hspace=0.3)
     plt.show()
     plt.savefig('JoyTopics.png')
+
+
 n_top_words = 20
 tfidf_feature_names = vectorizer.get_feature_names_out()
 
 plot_top_words(lda_model, tfidf_feature_names, n_top_words, "Topics in LDA model")
 
+from wordcloud import WordCloud
+def plot_top_words_cloud(model, feature_names, n_top_words, title):
+    fig, axes = plt.subplots(3, 2, figsize=(15, 15), sharex=True)
+    axes = axes.flatten()
+    for topic_idx, topic in enumerate(model.components_):
+        top_features_ind = topic.argsort()[: -n_top_words - 1 : -1]
+        top_features = [feature_names[i] for i in top_features_ind]
+        text =' '.join(top_features)
+        ax = axes[topic_idx]
+        wordcloud = WordCloud(max_font_size=50, max_words=100, background_color="white").generate(text)
+        ax.imshow(wordcloud, interpolation="bilinear")
+        ax.set_title(f"Topic {topic_idx +1}", fontdict={"fontsize": 30})
+        ax.axis("off")
+
+    plt.subplots_adjust(top=0.90, bottom=0.05, wspace=0.1, hspace=0.1)
+    plt.show()
+    plt.savefig('JoyWordCloud.png')
+n_top_words = 100
+tfidf_feature_names = vectorizer.get_feature_names_out()
+plot_top_words_cloud(lda_model, tfidf_feature_names, n_top_words, "Topics in LDA model")
