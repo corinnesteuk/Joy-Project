@@ -13,5 +13,5 @@ df['Emot_Intensity']= abs(df['Sentiment score'])
 
 #convert from 0 to 1 scale --> 0.5 to 1
 df['Emot_Intensity'] = (df['Emot_Intensity']/2) + 0.5
-print(df['Emot_Intensity'])
-print(df.head())
+
+df.to_csv('/Users/corinnesteuk/PycharmProjects/pythonProject/EmojiIntensity.csv')
