@@ -1,0 +1,1817 @@
+#,emoji,name,sentiment_score
+1,😀,grinning face,0.36
+2,😃,grinning face with big eyes,0.36
+3,😄,grinning face with smiling eyes,0.67
+4,😁,beaming face with smiling eyes,0.46
+5,😆,grinning squinting face,0.36
+6,😅,grinning face with sweat,0.36
+7,🤣,rolling on the floor laughing,0.49
+8,😂,face with tears of joy,0.44
+9,🙂,slightly smiling face,0.4
+10,🙃,upside-down face,0.0
+11,😉,winking face,0.0
+12,😊,smiling face with smiling eyes,0.72
+13,😇,smiling face with halo,0.46
+14,🥰,smiling face with hearts,0.46
+15,😍,smiling face with heart-eyes,0.46
+16,🤩,star-struck,0.0
+17,😘,face blowing a kiss,0.42
+18,😗,kissing face,0.57
+19,☺,smiling face,0.46
+20,😚,kissing face with closed eyes,0.57
+21,😙,kissing face with smiling eyes,0.77
+22,🥲,smiling face with tear,0.46
+23,😋,face savoring food,0.0
+24,😛,face with tongue,0.0
+25,😜,winking face with tongue,0.0
+26,🤪,zany face,0.0
+27,😝,squinting face with tongue,0.0
+28,🤑,money-mouth face,0.0
+29,🤗,hugging face,0.42
+30,🤭,face with hand over mouth,0.49
+31,🤫,shushing face,0.0
+32,🤔,thinking face,0.0
+33,🤐,zipper-mouth face,0.0
+34,🤨,face with raised eyebrow,0.0
+35,😐,neutral face,0.0
+36,😑,expressionless face,0.0
+37,😶,face without mouth,0.0
+38,😶‍🌫️,⊛ face in clouds,0.0
+39,😏,smirking face,0.0
+40,😒,unamused face,0.0
+41,🙄,face with rolling eyes,0.0
+42,😬,grimacing face,-0.34
+43,😮‍💨,⊛ face exhaling,0.0
+44,🤥,lying face,-0.53
+45,😌,relieved face,0.38
+46,😔,pensive face,0.08
+47,😪,sleepy face,0.0
+48,🤤,drooling face,0.0
+49,😴,sleeping face,0.0
+50,😷,face with medical mask,0.0
+51,🤒,face with thermometer,0.0
+52,🤕,face with head-bandage,0.0
+53,🤢,nauseated face,0.0
+54,🤮,face vomiting,0.0
+55,🤧,sneezing face,0.0
+56,🥵,hot face,0.0
+57,🥶,cold face,0.0
+58,🥴,woozy face,0.0
+59,😵,knocked-out face,0.0
+60,😵‍💫,⊛ face with spiral eyes,0.0
+61,🤯,exploding head,0.0
+62,🤠,cowboy hat face,0.0
+63,🥳,partying face,0.38
+64,🥸,disguised face,-0.27
+65,😎,smiling face with sunglasses,0.46
+66,🤓,nerd face,-0.3
+67,🧐,face with monocle,0.0
+68,😕,confused face,-0.32
+69,😟,worried face,-0.3
+70,🙁,slightly frowning face,-0.27
+71,☹,frowning face,-0.34
+72,😮,face with open mouth,0.0
+73,😯,hushed face,0.0
+74,😲,astonished face,0.38
+75,😳,flushed face,0.0
+76,🥺,pleading face,0.0
+77,😦,frowning face with open mouth,-0.34
+78,😧,anguished face,-0.42
+79,😨,fearful face,-0.49
+80,😰,anxious face with sweat,-0.25
+81,😥,sad but relieved face,0.33
+82,😢,crying face,-0.48
+83,😭,loudly crying face,-0.48
+84,😱,face screaming in fear,-0.7
+85,😖,confounded face,0.0
+86,😣,persevering face,0.0
+87,😞,disappointed face,-0.48
+88,😓,downcast face with sweat,-0.42
+89,😩,weary face,-0.27
+90,😫,tired face,-0.44
+91,🥱,yawning face,0.0
+92,😤,face with steam from nose,0.0
+93,😡,pouting face,0.0
+94,😠,angry face,-0.51
+95,🤬,face with symbols on mouth,0.0
+96,😈,smiling face with horns,0.46
+97,👿,angry face with horns,-0.51
+98,💀,skull,0.0
+99,☠,skull and crossbones,0.0
+100,💩,pile of poo,0.0
+101,🤡,clown face,0.0
+102,👹,ogre,0.0
+103,👺,goblin,0.0
+104,👻,ghost,-0.32
+105,👽,alien,0.0
+106,👾,alien monster,0.0
+107,🤖,robot,0.0
+108,😺,grinning cat,0.36
+109,😸,grinning cat with smiling eyes,0.67
+110,😹,cat with tears of joy,0.44
+111,😻,smiling cat with heart-eyes,0.46
+112,😼,cat with wry smile,0.36
+113,😽,kissing cat,0.57
+114,🙀,weary cat,-0.27
+115,😿,crying cat,-0.48
+116,😾,pouting cat,0.0
+117,🙈,see-no-evil monkey,0.0
+118,🙉,hear-no-evil monkey,0.0
+119,🙊,speak-no-evil monkey,0.0
+120,💋,kiss mark,0.42
+121,💌,love letter,0.64
+122,💘,heart with arrow,0.0
+123,💝,heart with ribbon,0.0
+124,💖,sparkling heart,0.3
+125,💗,growing heart,0.18
+126,💓,beating heart,-0.46
+127,💞,revolving hearts,0.0
+128,💕,two hearts,0.0
+129,💟,heart decoration,0.0
+130,❣,heart exclamation,0.0
+131,💔,broken heart,-0.48
+132,❤️‍🔥,⊛ heart on fire,-0.34
+133,❤️‍🩹,⊛ mending heart,0.0
+134,❤,red heart,0.0
+135,🧡,orange heart,0.0
+136,💛,yellow heart,0.0
+137,💚,green heart,0.0
+138,💙,blue heart,0.0
+139,💜,purple heart,0.0
+140,🤎,brown heart,0.0
+141,🖤,black heart,0.0
+142,🤍,white heart,0.0
+143,💯,hundred points,0.0
+144,💢,anger symbol,-0.57
+145,💥,collision,-0.36
+146,💫,dizzy,-0.23
+147,💦,sweat droplets,0.0
+148,💨,dashing away,0.0
+149,🕳,hole,0.0
+150,💣,bomb,-0.49
+151,💬,speech balloon,0.0
+152,👁️‍🗨️,eye in speech bubble,0.0
+153,🗨,left speech bubble,0.0
+154,🗯,right anger bubble,-0.57
+155,💭,thought balloon,0.0
+156,💤,zzz,-0.3
+157,👋,waving hand,0.49
+158,🤚,raised back of hand,0.49
+159,🖐,hand with fingers splayed,0.49
+160,✋,raised hand,0.49
+161,🖖,vulcan salute,0.0
+162,👌,OK hand,0.73
+163,🤌,pinched fingers,0.0
+164,🤏,pinching hand,0.49
+165,✌,victory hand,0.49
+166,🤞,crossed fingers,0.0
+167,🤟,love-you gesture,0.0
+168,🤘,sign of the horns,0.0
+169,🤙,call me hand,0.49
+170,👈,backhand index pointing left,0.0
+171,👉,backhand index pointing right,0.0
+172,👆,backhand index pointing up,0.0
+173,🖕,middle finger,0.0
+174,👇,backhand index pointing down,0.0
+175,☝,index pointing up,0.0
+176,👍,thumbs up,0.0
+177,👎,thumbs down,0.0
+178,✊,raised fist,0.0
+179,👊,oncoming fist,0.0
+180,🤛,left-facing fist,0.0
+181,🤜,right-facing fist,0.0
+182,👏,clapping hands,0.0
+183,🙌,raising hands,0.0
+184,👐,open hands,0.0
+185,🤲,palms up together,0.0
+186,🤝,handshake,0.0
+187,🙏,folded hands,0.0
+188,✍,writing hand,0.49
+189,💅,nail polish,0.0
+190,🤳,selfie,0.0
+191,💪,flexed biceps,0.0
+192,🦾,mechanical arm,0.0
+193,🦿,mechanical leg,0.0
+194,🦵,leg,0.0
+195,🦶,foot,0.0
+196,👂,ear,0.0
+197,🦻,ear with hearing aid,0.0
+198,👃,nose,0.0
+199,🧠,brain,0.0
+200,🫀,anatomical heart,0.0
+201,🫁,lungs,0.0
+202,🦷,tooth,0.0
+203,🦴,bone,0.0
+204,👀,eyes,0.0
+205,👁,eye,0.0
+206,👅,tongue,0.0
+207,👄,mouth,0.0
+208,👶,baby,0.0
+209,🧒,child,0.0
+210,👦,boy,0.0
+211,👧,girl,0.0
+212,🧑,person,0.0
+213,👱,person: blond hair,0.0
+214,👨,man,0.0
+215,🧔,person: beard,0.0
+216,🧔‍♂️,⊛ man: beard,0.0
+217,🧔‍♀️,⊛ woman: beard,0.0
+218,👨‍🦰,man: red hair,0.0
+219,👨‍🦱,man: curly hair,0.0
+220,👨‍🦳,man: white hair,0.0
+221,👨‍🦲,man: bald,0.0
+222,👩,woman,0.0
+223,👩‍🦰,woman: red hair,0.0
+224,🧑‍🦰,person: red hair,0.0
+225,👩‍🦱,woman: curly hair,0.0
+226,🧑‍🦱,person: curly hair,0.0
+227,👩‍🦳,woman: white hair,0.0
+228,🧑‍🦳,person: white hair,0.0
+229,👩‍🦲,woman: bald,0.0
+230,🧑‍🦲,person: bald,0.0
+231,👱‍♀️,woman: blond hair,0.0
+232,👱‍♂️,man: blond hair,0.0
+233,🧓,older person,0.0
+234,👴,old man,0.0
+235,👵,old woman,0.0
+236,🙍,person frowning,-0.34
+237,🙍‍♂️,man frowning,-0.34
+238,🙍‍♀️,woman frowning,-0.34
+239,🙎,person pouting,0.0
+240,🙎‍♂️,man pouting,0.0
+241,🙎‍♀️,woman pouting,0.0
+242,🙅,person gesturing NO,-0.45
+243,🙅‍♂️,man gesturing NO,-0.45
+244,🙅‍♀️,woman gesturing NO,-0.45
+245,🙆,person gesturing OK,0.45
+246,🙆‍♂️,man gesturing OK,0.45
+247,🙆‍♀️,woman gesturing OK,0.45
+248,💁,person tipping hand,0.49
+249,💁‍♂️,man tipping hand,0.49
+250,💁‍♀️,woman tipping hand,0.49
+251,🙋,person raising hand,0.49
+252,🙋‍♂️,man raising hand,0.49
+253,🙋‍♀️,woman raising hand,0.49
+254,🧏,deaf person,0.0
+255,🧏‍♂️,deaf man,0.0
+256,🧏‍♀️,deaf woman,0.0
+257,🙇,person bowing,0.0
+258,🙇‍♂️,man bowing,0.0
+259,🙇‍♀️,woman bowing,0.0
+260,🤦,person facepalming,0.0
+261,🤦‍♂️,man facepalming,0.0
+262,🤦‍♀️,woman facepalming,0.0
+263,🤷,person shrugging,0.0
+264,🤷‍♂️,man shrugging,0.0
+265,🤷‍♀️,woman shrugging,0.0
+266,🧑‍⚕️,health worker,0.0
+267,👨‍⚕️,man health worker,0.0
+268,👩‍⚕️,woman health worker,0.0
+269,🧑‍🎓,student,0.0
+270,👨‍🎓,man student,0.0
+271,👩‍🎓,woman student,0.0
+272,🧑‍🏫,teacher,0.0
+273,👨‍🏫,man teacher,0.0
+274,👩‍🏫,woman teacher,0.0
+275,🧑‍⚖️,judge,0.0
+276,👨‍⚖️,man judge,0.0
+277,👩‍⚖️,woman judge,0.0
+278,🧑‍🌾,farmer,0.0
+279,👨‍🌾,man farmer,0.0
+280,👩‍🌾,woman farmer,0.0
+281,🧑‍🍳,cook,0.0
+282,👨‍🍳,man cook,0.0
+283,👩‍🍳,woman cook,0.0
+284,🧑‍🔧,mechanic,0.0
+285,👨‍🔧,man mechanic,0.0
+286,👩‍🔧,woman mechanic,0.0
+287,🧑‍🏭,factory worker,0.0
+288,👨‍🏭,man factory worker,0.0
+289,👩‍🏭,woman factory worker,0.0
+290,🧑‍💼,office worker,0.0
+291,👨‍💼,man office worker,0.0
+292,👩‍💼,woman office worker,0.0
+293,🧑‍🔬,scientist,0.0
+294,👨‍🔬,man scientist,0.0
+295,👩‍🔬,woman scientist,0.0
+296,🧑‍💻,technologist,0.0
+297,👨‍💻,man technologist,0.0
+298,👩‍💻,woman technologist,0.0
+299,🧑‍🎤,singer,0.0
+300,👨‍🎤,man singer,0.0
+301,👩‍🎤,woman singer,0.0
+302,🧑‍🎨,artist,0.0
+303,👨‍🎨,man artist,0.0
+304,👩‍🎨,woman artist,0.0
+305,🧑‍✈️,pilot,0.0
+306,👨‍✈️,man pilot,0.0
+307,👩‍✈️,woman pilot,0.0
+308,🧑‍🚀,astronaut,0.0
+309,👨‍🚀,man astronaut,0.0
+310,👩‍🚀,woman astronaut,0.0
+311,🧑‍🚒,firefighter,0.0
+312,👨‍🚒,man firefighter,0.0
+313,👩‍🚒,woman firefighter,0.0
+314,👮,police officer,0.0
+315,👮‍♂️,man police officer,0.0
+316,👮‍♀️,woman police officer,0.0
+317,🕵,detective,0.0
+318,🕵️‍♂️,man detective,0.0
+319,🕵️‍♀️,woman detective,0.0
+320,💂,guard,0.0
+321,💂‍♂️,man guard,0.0
+322,💂‍♀️,woman guard,0.0
+323,🥷,ninja,0.0
+324,👷,construction worker,0.0
+325,👷‍♂️,man construction worker,0.0
+326,👷‍♀️,woman construction worker,0.0
+327,🤴,prince,0.0
+328,👸,princess,0.0
+329,👳,person wearing turban,0.0
+330,👳‍♂️,man wearing turban,0.0
+331,👳‍♀️,woman wearing turban,0.0
+332,👲,person with skullcap,0.0
+333,🧕,woman with headscarf,0.0
+334,🤵,person in tuxedo,0.0
+335,🤵‍♂️,man in tuxedo,0.0
+336,🤵‍♀️,woman in tuxedo,0.0
+337,👰,person with veil,0.0
+338,👰‍♂️,man with veil,0.0
+339,👰‍♀️,woman with veil,0.0
+340,🤰,pregnant woman,0.0
+341,🤱,breast-feeding,0.0
+342,👩‍🍼,woman feeding baby,0.0
+343,👨‍🍼,man feeding baby,0.0
+344,🧑‍🍼,person feeding baby,0.0
+345,👼,baby angel,0.0
+346,🎅,Santa Claus,0.0
+347,🤶,Mrs. Claus,0.0
+348,🧑‍🎄,mx claus,0.0
+349,🦸,superhero,0.0
+350,🦸‍♂️,man superhero,0.0
+351,🦸‍♀️,woman superhero,0.0
+352,🦹,supervillain,0.0
+353,🦹‍♂️,man supervillain,0.0
+354,🦹‍♀️,woman supervillain,0.0
+355,🧙,mage,0.0
+356,🧙‍♂️,man mage,0.0
+357,🧙‍♀️,woman mage,0.0
+358,🧚,fairy,0.0
+359,🧚‍♂️,man fairy,0.0
+360,🧚‍♀️,woman fairy,0.0
+361,🧛,vampire,0.0
+362,🧛‍♂️,man vampire,0.0
+363,🧛‍♀️,woman vampire,0.0
+364,🧜,merperson,0.0
+365,🧜‍♂️,merman,0.0
+366,🧜‍♀️,mermaid,0.0
+367,🧝,elf,0.0
+368,🧝‍♂️,man elf,0.0
+369,🧝‍♀️,woman elf,0.0
+370,🧞,genie,0.0
+371,🧞‍♂️,man genie,0.0
+372,🧞‍♀️,woman genie,0.0
+373,🧟,zombie,0.0
+374,🧟‍♂️,man zombie,0.0
+375,🧟‍♀️,woman zombie,0.0
+376,💆,person getting massage,0.0
+377,💆‍♂️,man getting massage,0.0
+378,💆‍♀️,woman getting massage,0.0
+379,💇,person getting haircut,0.0
+380,💇‍♂️,man getting haircut,0.0
+381,💇‍♀️,woman getting haircut,0.0
+382,🚶,person walking,0.0
+383,🚶‍♂️,man walking,0.0
+384,🚶‍♀️,woman walking,0.0
+385,🧍,person standing,0.0
+386,🧍‍♂️,man standing,0.0
+387,🧍‍♀️,woman standing,0.0
+388,🧎,person kneeling,0.0
+389,🧎‍♂️,man kneeling,0.0
+390,🧎‍♀️,woman kneeling,0.0
+391,🧑‍🦯,person with white cane,0.0
+392,👨‍🦯,man with white cane,0.0
+393,👩‍🦯,woman with white cane,0.0
+394,🧑‍🦼,person in motorized wheelchair,0.0
+395,👨‍🦼,man in motorized wheelchair,0.0
+396,👩‍🦼,woman in motorized wheelchair,0.0
+397,🧑‍🦽,person in manual wheelchair,0.0
+398,👨‍🦽,man in manual wheelchair,0.0
+399,👩‍🦽,woman in manual wheelchair,0.0
+400,🏃,person running,0.0
+401,🏃‍♂️,man running,0.0
+402,🏃‍♀️,woman running,0.0
+403,💃,woman dancing,0.0
+404,🕺,man dancing,0.0
+405,🕴,person in suit levitating,0.0
+406,👯,people with bunny ears,0.0
+407,👯‍♂️,men with bunny ears,0.0
+408,👯‍♀️,women with bunny ears,0.0
+409,🧖,person in steamy room,0.0
+410,🧖‍♂️,man in steamy room,0.0
+411,🧖‍♀️,woman in steamy room,0.0
+412,🧗,person climbing,0.0
+413,🧗‍♂️,man climbing,0.0
+414,🧗‍♀️,woman climbing,0.0
+415,🤺,person fencing,0.0
+416,🏇,horse racing,0.0
+417,⛷,skier,0.0
+418,🏂,snowboarder,0.0
+419,🏌,person golfing,0.0
+420,🏌️‍♂️,man golfing,0.0
+421,🏌️‍♀️,woman golfing,0.0
+422,🏄,person surfing,0.0
+423,🏄‍♂️,man surfing,0.0
+424,🏄‍♀️,woman surfing,0.0
+425,🚣,person rowing boat,0.0
+426,🚣‍♂️,man rowing boat,0.0
+427,🚣‍♀️,woman rowing boat,0.0
+428,🏊,person swimming,0.0
+429,🏊‍♂️,man swimming,0.0
+430,🏊‍♀️,woman swimming,0.0
+431,⛹,person bouncing ball,0.0
+432,⛹️‍♂️,man bouncing ball,0.0
+433,⛹️‍♀️,woman bouncing ball,0.0
+434,🏋,person lifting weights,0.0
+435,🏋️‍♂️,man lifting weights,0.0
+436,🏋️‍♀️,woman lifting weights,0.0
+437,🚴,person biking,0.0
+438,🚴‍♂️,man biking,0.0
+439,🚴‍♀️,woman biking,0.0
+440,🚵,person mountain biking,0.0
+441,🚵‍♂️,man mountain biking,0.0
+442,🚵‍♀️,woman mountain biking,0.0
+443,🤸,person cartwheeling,0.0
+444,🤸‍♂️,man cartwheeling,0.0
+445,🤸‍♀️,woman cartwheeling,0.0
+446,🤼,people wrestling,0.0
+447,🤼‍♂️,men wrestling,0.0
+448,🤼‍♀️,women wrestling,0.0
+449,🤽,person playing water polo,0.2
+450,🤽‍♂️,man playing water polo,0.2
+451,🤽‍♀️,woman playing water polo,0.2
+452,🤾,person playing handball,0.2
+453,🤾‍♂️,man playing handball,0.2
+454,🤾‍♀️,woman playing handball,0.2
+455,🤹,person juggling,0.0
+456,🤹‍♂️,man juggling,0.0
+457,🤹‍♀️,woman juggling,0.0
+458,🧘,person in lotus position,0.0
+459,🧘‍♂️,man in lotus position,0.0
+460,🧘‍♀️,woman in lotus position,0.0
+461,🛀,person taking bath,0.0
+462,🛌,person in bed,0.0
+463,🧑‍🤝‍🧑,people holding hands,0.0
+464,👭,women holding hands,0.0
+465,👫,woman and man holding hands,0.0
+466,👬,men holding hands,0.0
+467,💏,kiss,0.42
+468,👩‍❤️‍💋‍👨,"kiss: woman, man",0.42
+469,👨‍❤️‍💋‍👨,"kiss: man, man",0.42
+470,👩‍❤️‍💋‍👩,"kiss: woman, woman",0.42
+471,💑,couple with heart,0.0
+472,👩‍❤️‍👨,"couple with heart: woman, man",0.0
+473,👨‍❤️‍👨,"couple with heart: man, man",0.0
+474,👩‍❤️‍👩,"couple with heart: woman, woman",0.0
+475,👪,family,0.0
+476,👨‍👩‍👦,"family: man, woman, boy",0.0
+477,👨‍👩‍👧,"family: man, woman, girl",0.0
+478,👨‍👩‍👧‍👦,"family: man, woman, girl, boy",0.0
+479,👨‍👩‍👦‍👦,"family: man, woman, boy, boy",0.0
+480,👨‍👩‍👧‍👧,"family: man, woman, girl, girl",0.0
+481,👨‍👨‍👦,"family: man, man, boy",0.0
+482,👨‍👨‍👧,"family: man, man, girl",0.0
+483,👨‍👨‍👧‍👦,"family: man, man, girl, boy",0.0
+484,👨‍👨‍👦‍👦,"family: man, man, boy, boy",0.0
+485,👨‍👨‍👧‍👧,"family: man, man, girl, girl",0.0
+486,👩‍👩‍👦,"family: woman, woman, boy",0.0
+487,👩‍👩‍👧,"family: woman, woman, girl",0.0
+488,👩‍👩‍👧‍👦,"family: woman, woman, girl, boy",0.0
+489,👩‍👩‍👦‍👦,"family: woman, woman, boy, boy",0.0
+490,👩‍👩‍👧‍👧,"family: woman, woman, girl, girl",0.0
+491,👨‍👦,"family: man, boy",0.0
+492,👨‍👦‍👦,"family: man, boy, boy",0.0
+493,👨‍👧,"family: man, girl",0.0
+494,👨‍👧‍👦,"family: man, girl, boy",0.0
+495,👨‍👧‍👧,"family: man, girl, girl",0.0
+496,👩‍👦,"family: woman, boy",0.0
+497,👩‍👦‍👦,"family: woman, boy, boy",0.0
+498,👩‍👧,"family: woman, girl",0.0
+499,👩‍👧‍👦,"family: woman, girl, boy",0.0
+500,👩‍👧‍👧,"family: woman, girl, girl",0.0
+501,🗣,speaking head,0.0
+502,👤,bust in silhouette,0.0
+503,👥,busts in silhouette,0.0
+504,🫂,people hugging,0.42
+505,👣,footprints,0.0
+506,🦰,red hair,0.0
+507,🦱,curly hair,0.0
+508,🦳,white hair,0.0
+509,🦲,bald,0.0
+510,🐵,monkey face,0.0
+511,🐒,monkey,0.0
+512,🦍,gorilla,0.0
+513,🦧,orangutan,0.0
+514,🐶,dog face,0.0
+515,🐕,dog,0.0
+516,🦮,guide dog,0.0
+517,🐕‍🦺,service dog,0.0
+518,🐩,poodle,0.0
+519,🐺,wolf,0.0
+520,🦊,fox,0.0
+521,🦝,raccoon,0.0
+522,🐱,cat face,0.0
+523,🐈,cat,0.0
+524,🐈‍⬛,black cat,0.0
+525,🦁,lion,0.0
+526,🐯,tiger face,0.0
+527,🐅,tiger,0.0
+528,🐆,leopard,0.0
+529,🐴,horse face,0.0
+530,🐎,horse,0.0
+531,🦄,unicorn,0.0
+532,🦓,zebra,0.0
+533,🦌,deer,0.0
+534,🦬,bison,0.0
+535,🐮,cow face,0.0
+536,🐂,ox,0.0
+537,🐃,water buffalo,0.0
+538,🐄,cow,0.0
+539,🐷,pig face,0.0
+540,🐖,pig,0.0
+541,🐗,boar,0.0
+542,🐽,pig nose,0.0
+543,🐏,ram,0.0
+544,🐑,ewe,0.0
+545,🐐,goat,0.0
+546,🐪,camel,0.0
+547,🐫,two-hump camel,0.0
+548,🦙,llama,0.0
+549,🦒,giraffe,0.0
+550,🐘,elephant,0.0
+551,🦣,mammoth,0.0
+552,🦏,rhinoceros,0.0
+553,🦛,hippopotamus,0.0
+554,🐭,mouse face,0.0
+555,🐁,mouse,0.0
+556,🐀,rat,0.0
+557,🐹,hamster,0.0
+558,🐰,rabbit face,0.0
+559,🐇,rabbit,0.0
+560,🐿,chipmunk,0.0
+561,🦫,beaver,0.0
+562,🦔,hedgehog,0.0
+563,🦇,bat,0.0
+564,🐻,bear,0.0
+565,🐻‍❄️,polar bear,0.0
+566,🐨,koala,0.0
+567,🐼,panda,0.0
+568,🦥,sloth,0.0
+569,🦦,otter,0.0
+570,🦨,skunk,0.0
+571,🦘,kangaroo,0.0
+572,🦡,badger,0.0
+573,🐾,paw prints,0.0
+574,🦃,turkey,0.0
+575,🐔,chicken,0.0
+576,🐓,rooster,0.0
+577,🐣,hatching chick,0.0
+578,🐤,baby chick,0.0
+579,🐥,front-facing baby chick,0.0
+580,🐦,bird,0.0
+581,🐧,penguin,0.0
+582,🕊,dove,0.0
+583,🦅,eagle,0.0
+584,🦆,duck,0.0
+585,🦢,swan,0.0
+586,🦉,owl,0.0
+587,🦤,dodo,0.0
+588,🪶,feather,0.0
+589,🦩,flamingo,0.0
+590,🦚,peacock,0.0
+591,🦜,parrot,0.0
+592,🐸,frog,0.0
+593,🐊,crocodile,0.0
+594,🐢,turtle,0.0
+595,🦎,lizard,0.0
+596,🐍,snake,0.0
+597,🐲,dragon face,0.0
+598,🐉,dragon,0.0
+599,🦕,sauropod,0.0
+600,🦖,T-Rex,0.0
+601,🐳,spouting whale,0.0
+602,🐋,whale,0.0
+603,🐬,dolphin,0.0
+604,🦭,seal,0.0
+605,🐟,fish,0.0
+606,🐠,tropical fish,0.0
+607,🐡,blowfish,0.0
+608,🦈,shark,0.0
+609,🐙,octopus,0.0
+610,🐚,spiral shell,0.0
+611,🐌,snail,0.0
+612,🦋,butterfly,0.0
+613,🐛,bug,0.0
+614,🐜,ant,0.0
+615,🐝,honeybee,0.0
+616,🪲,beetle,0.0
+617,🐞,lady beetle,0.0
+618,🦗,cricket,0.0
+619,🪳,cockroach,0.0
+620,🕷,spider,0.0
+621,🕸,spider web,0.0
+622,🦂,scorpion,0.0
+623,🦟,mosquito,0.0
+624,🪰,fly,0.0
+625,🪱,worm,0.0
+626,🦠,microbe,0.0
+627,💐,bouquet,0.0
+628,🌸,cherry blossom,0.0
+629,💮,white flower,0.0
+630,🏵,rosette,0.0
+631,🌹,rose,0.0
+632,🥀,wilted flower,0.0
+633,🌺,hibiscus,0.0
+634,🌻,sunflower,0.0
+635,🌼,blossom,0.0
+636,🌷,tulip,0.0
+637,🌱,seedling,0.0
+638,🪴,potted plant,0.0
+639,🌲,evergreen tree,0.0
+640,🌳,deciduous tree,0.0
+641,🌴,palm tree,0.0
+642,🌵,cactus,0.0
+643,🌾,sheaf of rice,0.0
+644,🌿,herb,0.0
+645,☘,shamrock,0.0
+646,🍀,four leaf clover,0.0
+647,🍁,maple leaf,0.0
+648,🍂,fallen leaf,-0.36
+649,🍃,leaf fluttering in wind,0.0
+650,🍇,grapes,0.0
+651,🍈,melon,0.0
+652,🍉,watermelon,0.0
+653,🍊,tangerine,0.0
+654,🍋,lemon,0.0
+655,🍌,banana,0.0
+656,🍍,pineapple,0.0
+657,🥭,mango,0.0
+658,🍎,red apple,0.0
+659,🍏,green apple,0.0
+660,🍐,pear,0.0
+661,🍑,peach,0.0
+662,🍒,cherries,0.0
+663,🍓,strawberry,0.0
+664,🫐,blueberries,0.0
+665,🥝,kiwi fruit,0.0
+666,🍅,tomato,0.0
+667,🫒,olive,0.0
+668,🥥,coconut,0.0
+669,🥑,avocado,0.0
+670,🍆,eggplant,0.0
+671,🥔,potato,0.0
+672,🥕,carrot,0.0
+673,🌽,ear of corn,0.0
+674,🌶,hot pepper,0.0
+675,🫑,bell pepper,0.0
+676,🥒,cucumber,0.0
+677,🥬,leafy green,0.0
+678,🥦,broccoli,0.0
+679,🧄,garlic,0.0
+680,🧅,onion,0.0
+681,🍄,mushroom,0.0
+682,🥜,peanuts,0.0
+683,🌰,chestnut,0.0
+684,🍞,bread,0.0
+685,🥐,croissant,0.0
+686,🥖,baguette bread,0.0
+687,🫓,flatbread,0.0
+688,🥨,pretzel,0.0
+689,🥯,bagel,0.0
+690,🥞,pancakes,0.0
+691,🧇,waffle,0.0
+692,🧀,cheese wedge,0.0
+693,🍖,meat on bone,0.0
+694,🍗,poultry leg,0.0
+695,🥩,cut of meat,-0.27
+696,🥓,bacon,0.0
+697,🍔,hamburger,0.0
+698,🍟,french fries,0.0
+699,🍕,pizza,0.0
+700,🌭,hot dog,0.0
+701,🥪,sandwich,0.0
+702,🌮,taco,0.0
+703,🌯,burrito,0.0
+704,🫔,tamale,0.0
+705,🥙,stuffed flatbread,0.0
+706,🧆,falafel,0.0
+707,🥚,egg,0.0
+708,🍳,cooking,0.0
+709,🥘,shallow pan of food,0.0
+710,🍲,pot of food,0.0
+711,🫕,fondue,0.0
+712,🥣,bowl with spoon,0.0
+713,🥗,green salad,0.0
+714,🍿,popcorn,0.0
+715,🧈,butter,0.0
+716,🧂,salt,0.0
+717,🥫,canned food,0.0
+718,🍱,bento box,0.0
+719,🍘,rice cracker,0.0
+720,🍙,rice ball,0.0
+721,🍚,cooked rice,0.0
+722,🍛,curry rice,0.0
+723,🍜,steaming bowl,0.0
+724,🍝,spaghetti,0.0
+725,🍠,roasted sweet potato,0.46
+726,🍢,oden,0.0
+727,🍣,sushi,0.0
+728,🍤,fried shrimp,0.0
+729,🍥,fish cake with swirl,0.0
+730,🥮,moon cake,0.0
+731,🍡,dango,0.0
+732,🥟,dumpling,0.1
+733,🥠,fortune cookie,0.0
+734,🥡,takeout box,0.0
+735,🦀,crab,0.0
+736,🦞,lobster,0.0
+737,🦐,shrimp,0.0
+738,🦑,squid,0.0
+739,🦪,oyster,0.0
+740,🍦,soft ice cream,0.0
+741,🍧,shaved ice,0.0
+742,🍨,ice cream,0.0
+743,🍩,doughnut,0.0
+744,🍪,cookie,0.0
+745,🎂,birthday cake,0.0
+746,🍰,shortcake,0.0
+747,🧁,cupcake,0.0
+748,🥧,pie,0.0
+749,🍫,chocolate bar,0.0
+750,🍬,candy,0.0
+751,🍭,lollipop,0.0
+752,🍮,custard,0.0
+753,🍯,honey pot,0.0
+754,🍼,baby bottle,0.0
+755,🥛,glass of milk,0.0
+756,☕,hot beverage,0.0
+757,🫖,teapot,0.0
+758,🍵,teacup without handle,0.0
+759,🍶,sake,0.0
+760,🍾,bottle with popping cork,0.0
+761,🍷,wine glass,0.0
+762,🍸,cocktail glass,0.0
+763,🍹,tropical drink,0.0
+764,🍺,beer mug,0.0
+765,🍻,clinking beer mugs,0.0
+766,🥂,clinking glasses,0.0
+767,🥃,tumbler glass,0.0
+768,🥤,cup with straw,0.0
+769,🧋,bubble tea,0.0
+770,🧃,beverage box,0.0
+771,🧉,mate,0.0
+772,🧊,ice,0.0
+773,🥢,chopsticks,0.0
+774,🍽,fork and knife with plate,0.0
+775,🍴,fork and knife,0.0
+776,🥄,spoon,0.0
+777,🔪,kitchen knife,0.0
+778,🏺,amphora,0.0
+779,🌍,globe showing Europe-Africa,0.0
+780,🌎,globe showing Americas,0.0
+781,🌏,globe showing Asia-Australia,0.0
+782,🌐,globe with meridians,0.0
+783,🗺,world map,0.0
+784,🗾,map of Japan,0.0
+785,🧭,compass,0.0
+786,🏔,snow-capped mountain,0.0
+787,⛰,mountain,0.0
+788,🌋,volcano,0.0
+789,🗻,mount fuji,0.0
+790,🏕,camping,0.0
+791,🏖,beach with umbrella,0.0
+792,🏜,desert,0.0
+793,🏝,desert island,0.0
+794,🏞,national park,0.0
+795,🏟,stadium,0.0
+796,🏛,classical building,0.0
+797,🏗,building construction,0.0
+798,🧱,brick,0.0
+799,🪨,rock,0.0
+800,🪵,wood,0.0
+801,🛖,hut,0.0
+802,🏘,houses,0.0
+803,🏚,derelict house,0.0
+804,🏠,house,0.0
+805,🏡,house with garden,0.0
+806,🏢,office building,0.0
+807,🏣,Japanese post office,0.0
+808,🏤,post office,0.0
+809,🏥,hospital,0.0
+810,🏦,bank,0.0
+811,🏨,hotel,0.0
+812,🏩,love hotel,0.64
+813,🏪,convenience store,0.0
+814,🏫,school,0.0
+815,🏬,department store,0.0
+816,🏭,factory,0.0
+817,🏯,Japanese castle,0.0
+818,🏰,castle,0.0
+819,💒,wedding,0.0
+820,🗼,Tokyo tower,0.0
+821,🗽,Statue of Liberty,0.53
+822,⛪,church,0.0
+823,🕌,mosque,0.0
+824,🛕,hindu temple,0.0
+825,🕍,synagogue,0.0
+826,⛩,shinto shrine,0.0
+827,🕋,kaaba,0.0
+828,⛲,fountain,0.0
+829,⛺,tent,0.0
+830,🌁,foggy,0.0
+831,🌃,night with stars,0.0
+832,🏙,cityscape,0.0
+833,🌄,sunrise over mountains,0.0
+834,🌅,sunrise,0.0
+835,🌆,cityscape at dusk,0.0
+836,🌇,sunset,0.0
+837,🌉,bridge at night,0.0
+838,♨,hot springs,0.0
+839,🎠,carousel horse,0.0
+840,🎡,ferris wheel,0.0
+841,🎢,roller coaster,0.0
+842,💈,barber pole,0.0
+843,🎪,circus tent,0.0
+844,🚂,locomotive,0.0
+845,🚃,railway car,0.0
+846,🚄,high-speed train,0.0
+847,🚅,bullet train,0.0
+848,🚆,train,0.0
+849,🚇,metro,0.0
+850,🚈,light rail,0.0
+851,🚉,station,0.0
+852,🚊,tram,0.0
+853,🚝,monorail,0.0
+854,🚞,mountain railway,0.0
+855,🚋,tram car,0.0
+856,🚌,bus,0.0
+857,🚍,oncoming bus,0.0
+858,🚎,trolleybus,0.0
+859,🚐,minibus,0.0
+860,🚑,ambulance,0.0
+861,🚒,fire engine,-0.34
+862,🚓,police car,0.0
+863,🚔,oncoming police car,0.0
+864,🚕,taxi,0.0
+865,🚖,oncoming taxi,0.0
+866,🚗,automobile,0.0
+867,🚘,oncoming automobile,0.0
+868,🚙,sport utility vehicle,0.0
+869,🛻,pickup truck,0.0
+870,🚚,delivery truck,0.0
+871,🚛,articulated lorry,0.0
+872,🚜,tractor,0.0
+873,🏎,racing car,0.0
+874,🏍,motorcycle,0.0
+875,🛵,motor scooter,0.0
+876,🦽,manual wheelchair,0.0
+877,🦼,motorized wheelchair,0.0
+878,🛺,auto rickshaw,0.0
+879,🚲,bicycle,0.0
+880,🛴,kick scooter,0.0
+881,🛹,skateboard,0.0
+882,🛼,roller skate,0.0
+883,🚏,bus stop,-0.3
+884,🛣,motorway,0.0
+885,🛤,railway track,0.0
+886,🛢,oil drum,0.0
+887,⛽,fuel pump,0.0
+888,🚨,police car light,0.0
+889,🚥,horizontal traffic light,0.0
+890,🚦,vertical traffic light,0.0
+891,🛑,stop sign,-0.3
+892,🚧,construction,0.0
+893,⚓,anchor,0.0
+894,⛵,sailboat,0.0
+895,🛶,canoe,0.0
+896,🚤,speedboat,0.0
+897,🛳,passenger ship,0.0
+898,⛴,ferry,0.0
+899,🛥,motor boat,0.0
+900,🚢,ship,0.0
+901,✈,airplane,0.0
+902,🛩,small airplane,0.0
+903,🛫,airplane departure,0.0
+904,🛬,airplane arrival,0.0
+905,🪂,parachute,0.0
+906,💺,seat,0.0
+907,🚁,helicopter,0.0
+908,🚟,suspension railway,0.0
+909,🚠,mountain cableway,0.0
+910,🚡,aerial tramway,0.0
+911,🛰,satellite,0.0
+912,🚀,rocket,0.0
+913,🛸,flying saucer,0.0
+914,🛎,bellhop bell,0.0
+915,🧳,luggage,0.0
+916,⌛,hourglass done,0.0
+917,⏳,hourglass not done,0.0
+918,⌚,watch,0.0
+919,⏰,alarm clock,-0.34
+920,⏱,stopwatch,0.0
+921,⏲,timer clock,0.0
+922,🕰,mantelpiece clock,0.0
+923,🕛,twelve o’clock,0.0
+924,🕧,twelve-thirty,0.0
+925,🕐,one o’clock,0.0
+926,🕜,one-thirty,0.0
+927,🕑,two o’clock,0.0
+928,🕝,two-thirty,0.0
+929,🕒,three o’clock,0.0
+930,🕞,three-thirty,0.0
+931,🕓,four o’clock,0.0
+932,🕟,four-thirty,0.0
+933,🕔,five o’clock,0.0
+934,🕠,five-thirty,0.0
+935,🕕,six o’clock,0.0
+936,🕡,six-thirty,0.0
+937,🕖,seven o’clock,0.0
+938,🕢,seven-thirty,0.0
+939,🕗,eight o’clock,0.0
+940,🕣,eight-thirty,0.0
+941,🕘,nine o’clock,0.0
+942,🕤,nine-thirty,0.0
+943,🕙,ten o’clock,0.0
+944,🕥,ten-thirty,0.0
+945,🕚,eleven o’clock,0.0
+946,🕦,eleven-thirty,0.0
+947,🌑,new moon,0.0
+948,🌒,waxing crescent moon,0.0
+949,🌓,first quarter moon,0.0
+950,🌔,waxing gibbous moon,0.0
+951,🌕,full moon,0.0
+952,🌖,waning gibbous moon,0.0
+953,🌗,last quarter moon,0.0
+954,🌘,waning crescent moon,0.0
+955,🌙,crescent moon,0.0
+956,🌚,new moon face,0.0
+957,🌛,first quarter moon face,0.0
+958,🌜,last quarter moon face,0.0
+959,🌡,thermometer,0.0
+960,☀,sun,0.0
+961,🌝,full moon face,0.0
+962,🌞,sun with face,0.0
+963,🪐,ringed planet,0.0
+964,⭐,star,0.0
+965,🌟,glowing star,0.0
+966,🌠,shooting star,0.0
+967,🌌,milky way,0.0
+968,☁,cloud,0.0
+969,⛅,sun behind cloud,0.0
+970,⛈,cloud with lightning and rain,0.0
+971,🌤,sun behind small cloud,0.0
+972,🌥,sun behind large cloud,0.0
+973,🌦,sun behind rain cloud,0.0
+974,🌧,cloud with rain,0.0
+975,🌨,cloud with snow,0.0
+976,🌩,cloud with lightning,0.0
+977,🌪,tornado,0.0
+978,🌫,fog,0.0
+979,🌬,wind face,0.0
+980,🌀,cyclone,0.0
+981,🌈,rainbow,0.0
+982,🌂,closed umbrella,0.0
+983,☂,umbrella,0.0
+984,☔,umbrella with rain drops,0.0
+985,⛱,umbrella on ground,0.0
+986,⚡,high voltage,0.0
+987,❄,snowflake,0.0
+988,☃,snowman,0.0
+989,⛄,snowman without snow,0.0
+990,☄,comet,0.0
+991,🔥,fire,-0.34
+992,💧,droplet,0.0
+993,🌊,water wave,0.0
+994,🎃,jack-o-lantern,0.0
+995,🎄,Christmas tree,0.0
+996,🎆,fireworks,0.0
+997,🎇,sparkler,0.0
+998,🧨,firecracker,0.0
+999,✨,sparkles,0.32
+1000,🎈,balloon,0.0
+1001,🎉,party popper,0.4
+1002,🎊,confetti ball,0.0
+1003,🎋,tanabata tree,0.0
+1004,🎍,pine decoration,0.0
+1005,🎎,Japanese dolls,0.0
+1006,🎏,carp streamer,0.0
+1007,🎐,wind chime,0.0
+1008,🎑,moon viewing ceremony,0.0
+1009,🧧,red envelope,0.0
+1010,🎀,ribbon,0.0
+1011,🎁,wrapped gift,0.44
+1012,🎗,reminder ribbon,0.0
+1013,🎟,admission tickets,0.0
+1014,🎫,ticket,0.0
+1015,🎖,military medal,0.48
+1016,🏆,trophy,0.0
+1017,🏅,sports medal,0.48
+1018,🥇,1st place medal,0.48
+1019,🥈,2nd place medal,0.48
+1020,🥉,3rd place medal,0.48
+1021,⚽,soccer ball,0.0
+1022,⚾,baseball,0.0
+1023,🥎,softball,0.0
+1024,🏀,basketball,0.0
+1025,🏐,volleyball,0.0
+1026,🏈,american football,0.0
+1027,🏉,rugby football,0.0
+1028,🎾,tennis,0.0
+1029,🥏,flying disc,0.0
+1030,🎳,bowling,0.0
+1031,🏏,cricket game,0.0
+1032,🏑,field hockey,0.0
+1033,🏒,ice hockey,0.0
+1034,🥍,lacrosse,0.0
+1035,🏓,ping pong,0.0
+1036,🏸,badminton,0.0
+1037,🥊,boxing glove,0.0
+1038,🥋,martial arts uniform,0.0
+1039,🥅,goal net,0.0
+1040,⛳,flag in hole,0.0
+1041,⛸,ice skate,0.0
+1042,🎣,fishing pole,0.0
+1043,🤿,diving mask,0.08
+1044,🎽,running shirt,0.0
+1045,🎿,skis,0.0
+1046,🛷,sled,0.0
+1047,🥌,curling stone,0.0
+1048,🎯,bullseye,0.0
+1049,🪀,yo-yo,0.0
+1050,🪁,kite,0.0
+1051,🎱,pool 8 ball,0.0
+1052,🔮,crystal ball,0.0
+1053,🪄,magic wand,0.0
+1054,🧿,nazar amulet,0.0
+1055,🎮,video game,0.0
+1056,🕹,joystick,0.18
+1057,🎰,slot machine,0.0
+1058,🎲,game die,-0.6
+1059,🧩,puzzle piece,0.0
+1060,🧸,teddy bear,0.0
+1061,🪅,piñata,0.0
+1062,🪆,nesting dolls,0.0
+1063,♠,spade suit,0.0
+1064,♥,heart suit,0.0
+1065,♦,diamond suit,0.34
+1066,♣,club suit,0.0
+1067,♟,chess pawn,0.0
+1068,🃏,joker,0.13
+1069,🀄,mahjong red dragon,0.0
+1070,🎴,flower playing cards,0.2
+1071,🎭,performing arts,0.0
+1072,🖼,framed picture,0.0
+1073,🎨,artist palette,0.0
+1074,🧵,thread,0.0
+1075,🪡,sewing needle,0.0
+1076,🧶,yarn,0.0
+1077,🪢,knot,0.0
+1078,👓,glasses,0.0
+1079,🕶,sunglasses,0.0
+1080,🥽,goggles,0.0
+1081,🥼,lab coat,0.0
+1082,🦺,safety vest,0.42
+1083,👔,necktie,0.0
+1084,👕,t-shirt,0.0
+1085,👖,jeans,0.0
+1086,🧣,scarf,0.0
+1087,🧤,gloves,0.0
+1088,🧥,coat,0.0
+1089,🧦,socks,0.0
+1090,👗,dress,0.0
+1091,👘,kimono,0.0
+1092,🥻,sari,0.0
+1093,🩱,one-piece swimsuit,0.0
+1094,🩲,briefs,0.0
+1095,🩳,shorts,0.0
+1096,👙,bikini,0.0
+1097,👚,woman’s clothes,0.0
+1098,👛,purse,0.0
+1099,👜,handbag,0.0
+1100,👝,clutch bag,0.0
+1101,🛍,shopping bags,0.0
+1102,🎒,backpack,0.0
+1103,🩴,thong sandal,0.0
+1104,👞,man’s shoe,0.0
+1105,👟,running shoe,0.0
+1106,🥾,hiking boot,0.0
+1107,🥿,flat shoe,0.0
+1108,👠,high-heeled shoe,0.0
+1109,👡,woman’s sandal,0.0
+1110,🩰,ballet shoes,0.0
+1111,👢,woman’s boot,0.0
+1112,👑,crown,0.0
+1113,👒,woman’s hat,0.0
+1114,🎩,top hat,0.2
+1115,🎓,graduation cap,0.0
+1116,🧢,billed cap,0.0
+1117,🪖,military helmet,0.0
+1118,⛑,rescue worker’s helmet,0.51
+1119,📿,prayer beads,0.0
+1120,💄,lipstick,0.0
+1121,💍,ring,0.0
+1122,💎,gem stone,0.0
+1123,🔇,muted speaker,0.0
+1124,🔈,speaker low volume,-0.27
+1125,🔉,speaker medium volume,0.0
+1126,🔊,speaker high volume,0.0
+1127,📢,loudspeaker,0.0
+1128,📣,megaphone,0.0
+1129,📯,postal horn,0.0
+1130,🔔,bell,0.0
+1131,🔕,bell with slash,-0.27
+1132,🎼,musical score,0.0
+1133,🎵,musical note,0.0
+1134,🎶,musical notes,0.0
+1135,🎙,studio microphone,0.0
+1136,🎚,level slider,0.0
+1137,🎛,control knobs,0.0
+1138,🎤,microphone,0.0
+1139,🎧,headphone,0.0
+1140,📻,radio,0.0
+1141,🎷,saxophone,0.0
+1142,🪗,accordion,0.0
+1143,🎸,guitar,0.0
+1144,🎹,musical keyboard,0.0
+1145,🎺,trumpet,0.0
+1146,🎻,violin,0.0
+1147,🪕,banjo,0.0
+1148,🥁,drum,0.0
+1149,🪘,long drum,0.0
+1150,📱,mobile phone,0.0
+1151,📲,mobile phone with arrow,0.0
+1152,☎,telephone,0.0
+1153,📞,telephone receiver,0.0
+1154,📟,pager,0.0
+1155,📠,fax machine,0.0
+1156,🔋,battery,0.0
+1157,🔌,electric plug,0.0
+1158,💻,laptop,0.0
+1159,🖥,desktop computer,0.0
+1160,🖨,printer,0.0
+1161,⌨,keyboard,0.0
+1162,🖱,computer mouse,0.0
+1163,🖲,trackball,0.0
+1164,💽,computer disk,0.0
+1165,💾,floppy disk,0.0
+1166,💿,optical disk,0.0
+1167,📀,dvd,0.0
+1168,🧮,abacus,0.0
+1169,🎥,movie camera,0.0
+1170,🎞,film frames,0.0
+1171,📽,film projector,0.0
+1172,🎬,clapper board,0.0
+1173,📺,television,0.0
+1174,📷,camera,0.0
+1175,📸,camera with flash,0.0
+1176,📹,video camera,0.0
+1177,📼,videocassette,0.0
+1178,🔍,magnifying glass tilted left,0.0
+1179,🔎,magnifying glass tilted right,0.0
+1180,🕯,candle,0.0
+1181,💡,light bulb,0.0
+1182,🔦,flashlight,0.0
+1183,🏮,red paper lantern,0.0
+1184,🪔,diya lamp,0.0
+1185,📔,notebook with decorative cover,0.0
+1186,📕,closed book,0.0
+1187,📖,open book,0.0
+1188,📗,green book,0.0
+1189,📘,blue book,0.0
+1190,📙,orange book,0.0
+1191,📚,books,0.0
+1192,📓,notebook,0.0
+1193,📒,ledger,0.0
+1194,📃,page with curl,0.0
+1195,📜,scroll,0.0
+1196,📄,page facing up,0.0
+1197,📰,newspaper,0.0
+1198,🗞,rolled-up newspaper,0.0
+1199,📑,bookmark tabs,0.0
+1200,🔖,bookmark,0.0
+1201,🏷,label,0.0
+1202,💰,money bag,0.0
+1203,🪙,coin,0.0
+1204,💴,yen banknote,0.0
+1205,💵,dollar banknote,0.0
+1206,💶,euro banknote,0.0
+1207,💷,pound banknote,0.0
+1208,💸,money with wings,0.0
+1209,💳,credit card,0.38
+1210,🧾,receipt,0.0
+1211,💹,chart increasing with yen,0.0
+1212,✉,envelope,0.0
+1213,📧,e-mail,0.0
+1214,📨,incoming envelope,0.0
+1215,📩,envelope with arrow,0.0
+1216,📤,outbox tray,0.0
+1217,📥,inbox tray,0.0
+1218,📦,package,0.0
+1219,📫,closed mailbox with raised flag,0.0
+1220,📪,closed mailbox with lowered flag,-0.13
+1221,📬,open mailbox with raised flag,0.0
+1222,📭,open mailbox with lowered flag,-0.13
+1223,📮,postbox,0.0
+1224,🗳,ballot box with ballot,0.0
+1225,✏,pencil,0.0
+1226,✒,black nib,0.0
+1227,🖋,fountain pen,0.0
+1228,🖊,pen,0.0
+1229,🖌,paintbrush,0.0
+1230,🖍,crayon,0.0
+1231,📝,memo,0.0
+1232,💼,briefcase,0.0
+1233,📁,file folder,0.0
+1234,📂,open file folder,0.0
+1235,🗂,card index dividers,0.0
+1236,📅,calendar,0.0
+1237,📆,tear-off calendar,0.0
+1238,🗒,spiral notepad,0.0
+1239,🗓,spiral calendar,0.0
+1240,📇,card index,0.0
+1241,📈,chart increasing,0.0
+1242,📉,chart decreasing,0.0
+1243,📊,bar chart,0.0
+1244,📋,clipboard,0.0
+1245,📌,pushpin,0.0
+1246,📍,round pushpin,0.0
+1247,📎,paperclip,0.0
+1248,🖇,linked paperclips,0.0
+1249,📏,straight ruler,0.23
+1250,📐,triangular ruler,0.0
+1251,✂,scissors,0.0
+1252,🗃,card file box,0.0
+1253,🗄,file cabinet,0.0
+1254,🗑,wastebasket,0.0
+1255,🔒,locked,0.0
+1256,🔓,unlocked,0.0
+1257,🔏,locked with pen,0.0
+1258,🔐,locked with key,0.0
+1259,🔑,key,0.0
+1260,🗝,old key,0.0
+1261,🔨,hammer,0.0
+1262,🪓,axe,-0.1
+1263,⛏,pick,0.0
+1264,⚒,hammer and pick,0.0
+1265,🛠,hammer and wrench,0.0
+1266,🗡,dagger,0.0
+1267,⚔,crossed swords,0.0
+1268,🔫,water pistol,0.0
+1269,🪃,boomerang,0.0
+1270,🏹,bow and arrow,0.0
+1271,🛡,shield,0.0
+1272,🪚,carpentry saw,0.0
+1273,🔧,wrench,0.0
+1274,🪛,screwdriver,0.08
+1275,🔩,nut and bolt,0.0
+1276,⚙,gear,0.0
+1277,🗜,clamp,0.0
+1278,⚖,balance scale,0.0
+1279,🦯,white cane,0.0
+1280,🔗,link,0.0
+1281,⛓,chains,0.0
+1282,🪝,hook,0.0
+1283,🧰,toolbox,0.0
+1284,🧲,magnet,0.0
+1285,🪜,ladder,0.0
+1286,⚗,alembic,0.0
+1287,🧪,test tube,0.0
+1288,🧫,petri dish,0.0
+1289,🧬,dna,0.0
+1290,🔬,microscope,0.0
+1291,🔭,telescope,0.0
+1292,📡,satellite antenna,0.0
+1293,💉,syringe,0.0
+1294,🩸,drop of blood,-0.27
+1295,💊,pill,0.0
+1296,🩹,adhesive bandage,0.0
+1297,🩺,stethoscope,0.0
+1298,🚪,door,0.0
+1299,🛗,elevator,0.0
+1300,🪞,mirror,0.0
+1301,🪟,window,0.0
+1302,🛏,bed,0.0
+1303,🛋,couch and lamp,0.0
+1304,🪑,chair,0.0
+1305,🚽,toilet,0.0
+1306,🪠,plunger,0.0
+1307,🚿,shower,0.0
+1308,🛁,bathtub,0.0
+1309,🪤,mouse trap,-0.32
+1310,🪒,razor,0.0
+1311,🧴,lotion bottle,0.0
+1312,🧷,safety pin,0.42
+1313,🧹,broom,0.0
+1314,🧺,basket,0.0
+1315,🧻,roll of paper,0.0
+1316,🪣,bucket,0.0
+1317,🧼,soap,0.0
+1318,🪥,toothbrush,0.0
+1319,🧽,sponge,0.0
+1320,🧯,fire extinguisher,-0.34
+1321,🛒,shopping cart,0.0
+1322,🚬,cigarette,0.0
+1323,⚰,coffin,0.0
+1324,🪦,headstone,0.0
+1325,⚱,funeral urn,-0.36
+1326,🗿,moai,0.0
+1327,🪧,placard,0.0
+1328,🏧,ATM sign,0.0
+1329,🚮,litter in bin sign,0.0
+1330,🚰,potable water,0.0
+1331,♿,wheelchair symbol,0.0
+1332,🚹,men’s room,0.0
+1333,🚺,women’s room,0.0
+1334,🚻,restroom,0.0
+1335,🚼,baby symbol,0.0
+1336,🚾,water closet,0.0
+1337,🛂,passport control,0.0
+1338,🛃,customs,0.0
+1339,🛄,baggage claim,0.0
+1340,🛅,left luggage,0.0
+1341,⚠,warning,-0.34
+1342,🚸,children crossing,0.0
+1343,⛔,no entry,-0.3
+1344,🚫,prohibited,0.0
+1345,🚳,no bicycles,-0.3
+1346,🚭,no smoking,-0.3
+1347,🚯,no littering,-0.3
+1348,🚱,non-potable water,0.0
+1349,🚷,no pedestrians,-0.3
+1350,📵,no mobile phones,-0.3
+1351,🔞,no one under eighteen,-0.3
+1352,☢,radioactive,0.0
+1353,☣,biohazard,0.0
+1354,⬆,up arrow,0.0
+1355,↗,up-right arrow,0.0
+1356,➡,right arrow,0.0
+1357,↘,down-right arrow,0.0
+1358,⬇,down arrow,0.0
+1359,↙,down-left arrow,0.0
+1360,⬅,left arrow,0.0
+1361,↖,up-left arrow,0.0
+1362,↕,up-down arrow,0.0
+1363,↔,left-right arrow,0.0
+1364,↩,right arrow curving left,0.0
+1365,↪,left arrow curving right,0.0
+1366,⤴,right arrow curving up,0.0
+1367,⤵,right arrow curving down,0.0
+1368,🔃,clockwise vertical arrows,0.0
+1369,🔄,counterclockwise arrows button,0.0
+1370,🔙,BACK arrow,0.0
+1371,🔚,END arrow,0.0
+1372,🔛,ON! arrow,0.0
+1373,🔜,SOON arrow,0.0
+1374,🔝,TOP arrow,0.37
+1375,🛐,place of worship,0.3
+1376,⚛,atom symbol,0.0
+1377,🕉,om,0.0
+1378,✡,star of David,0.0
+1379,☸,wheel of dharma,0.0
+1380,☯,yin yang,0.0
+1381,✝,latin cross,0.0
+1382,☦,orthodox cross,0.0
+1383,☪,star and crescent,0.0
+1384,☮,peace symbol,0.54
+1385,🕎,menorah,0.0
+1386,🔯,dotted six-pointed star,0.0
+1387,♈,Aries,0.0
+1388,♉,Taurus,0.0
+1389,♊,Gemini,0.0
+1390,♋,Cancer,-0.66
+1391,♌,Leo,0.0
+1392,♍,Virgo,0.0
+1393,♎,Libra,0.0
+1394,♏,Scorpio,0.0
+1395,♐,Sagittarius,0.0
+1396,♑,Capricorn,0.0
+1397,♒,Aquarius,0.0
+1398,♓,Pisces,0.0
+1399,⛎,Ophiuchus,0.0
+1400,🔀,shuffle tracks button,0.0
+1401,🔁,repeat button,0.0
+1402,🔂,repeat single button,0.0
+1403,▶,play button,0.34
+1404,⏩,fast-forward button,0.0
+1405,⏭,next track button,0.0
+1406,⏯,play or pause button,0.34
+1407,◀,reverse button,0.0
+1408,⏪,fast reverse button,0.0
+1409,⏮,last track button,0.0
+1410,🔼,upwards button,0.0
+1411,⏫,fast up button,0.0
+1412,🔽,downwards button,0.0
+1413,⏬,fast down button,0.0
+1414,⏸,pause button,0.0
+1415,⏹,stop button,-0.3
+1416,⏺,record button,0.0
+1417,⏏,eject button,0.0
+1418,🎦,cinema,0.0
+1419,🔅,dim button,0.0
+1420,🔆,bright button,0.44
+1421,📶,antenna bars,0.0
+1422,📳,vibration mode,0.0
+1423,📴,mobile phone off,0.0
+1424,♀,female sign,0.0
+1425,♂,male sign,0.0
+1426,⚧,transgender symbol,0.0
+1427,✖,multiply,0.0
+1428,➕,plus,0.0
+1429,➖,minus,0.0
+1430,➗,divide,0.0
+1431,♾,infinity,0.0
+1432,‼,double exclamation mark,0.0
+1433,⁉,exclamation question mark,0.0
+1434,❓,red question mark,0.0
+1435,❔,white question mark,0.0
+1436,❕,white exclamation mark,0.0
+1437,❗,red exclamation mark,0.0
+1438,〰,wavy dash,0.0
+1439,💱,currency exchange,0.0
+1440,💲,heavy dollar sign,0.0
+1441,⚕,medical symbol,0.0
+1442,♻,recycling symbol,0.0
+1443,⚜,fleur-de-lis,0.0
+1444,🔱,trident emblem,0.0
+1445,📛,name badge,0.0
+1446,🔰,Japanese symbol for beginner,0.0
+1447,⭕,hollow red circle,0.0
+1448,✅,check mark button,0.0
+1449,☑,check box with check,0.0
+1450,✔,check mark,0.0
+1451,❌,cross mark,0.0
+1452,❎,cross mark button,0.0
+1453,➰,curly loop,0.0
+1454,➿,double curly loop,0.0
+1455,〽,part alternation mark,0.0
+1456,✳,eight-spoked asterisk,0.0
+1457,✴,eight-pointed star,0.0
+1458,❇,sparkle,0.42
+1459,©,copyright,0.0
+1460,®,registered,0.0
+1461,™,trade mark,0.0
+1462,#️⃣,keycap: #,0.0
+1463,*️⃣,keycap: *,0.0
+1464,0️⃣,keycap: 0,0.0
+1465,1️⃣,keycap: 1,0.0
+1466,2️⃣,keycap: 2,0.0
+1467,3️⃣,keycap: 3,0.0
+1468,4️⃣,keycap: 4,0.0
+1469,5️⃣,keycap: 5,0.0
+1470,6️⃣,keycap: 6,0.0
+1471,7️⃣,keycap: 7,0.0
+1472,8️⃣,keycap: 8,0.0
+1473,9️⃣,keycap: 9,0.0
+1474,🔟,keycap: 10,0.0
+1475,🔠,input latin uppercase,0.0
+1476,🔡,input latin lowercase,0.08
+1477,🔢,input numbers,0.0
+1478,🔣,input symbols,0.0
+1479,🔤,input latin letters,0.0
+1480,🅰,A button (blood type),0.0
+1481,🆎,AB button (blood type),0.0
+1482,🅱,B button (blood type),0.0
+1483,🆑,CL button,0.0
+1484,🆒,COOL button,0.46
+1485,🆓,FREE button,0.62
+1486,ℹ,information,0.0
+1487,🆔,ID button,0.0
+1488,Ⓜ,circled M,0.0
+1489,🆕,NEW button,0.0
+1490,🆖,NG button,0.0
+1491,🅾,O button (blood type),0.0
+1492,🆗,OK button,0.45
+1493,🅿,P button,0.0
+1494,🆘,SOS button,0.0
+1495,🆙,UP! button,0.0
+1496,🆚,VS button,0.0
+1497,🈁,Japanese “here” button,0.0
+1498,🈂,Japanese “service charge” button,0.0
+1499,🈷,Japanese “monthly amount” button,0.0
+1500,🈶,Japanese “not free of charge” button,0.51
+1501,🈯,Japanese “reserved” button,0.0
+1502,🉐,Japanese “bargain” button,0.0
+1503,🈹,Japanese “discount” button,0.0
+1504,🈚,Japanese “free of charge” button,0.0
+1505,🈲,Japanese “prohibited” button,0.0
+1506,🉑,Japanese “acceptable” button,0.0
+1507,🈸,Japanese “application” button,0.0
+1508,🈴,Japanese “passing grade” button,0.0
+1509,🈳,Japanese “vacancy” button,0.0
+1510,㊗,Japanese “congratulations” button,0.0
+1511,㊙,Japanese “secret” button,0.0
+1512,🈺,Japanese “open for business” button,0.0
+1513,🈵,Japanese “no vacancy” button,0.0
+1514,🔴,red circle,0.0
+1515,🟠,orange circle,0.0
+1516,🟡,yellow circle,0.0
+1517,🟢,green circle,0.0
+1518,🔵,blue circle,0.0
+1519,🟣,purple circle,0.0
+1520,🟤,brown circle,0.0
+1521,⚫,black circle,0.0
+1522,⚪,white circle,0.0
+1523,🟥,red square,0.0
+1524,🟧,orange square,0.0
+1525,🟨,yellow square,0.0
+1526,🟩,green square,0.0
+1527,🟦,blue square,0.0
+1528,🟪,purple square,0.0
+1529,🟫,brown square,0.0
+1530,⬛,black large square,0.0
+1531,⬜,white large square,0.0
+1532,◼,black medium square,0.0
+1533,◻,white medium square,0.0
+1534,◾,black medium-small square,0.0
+1535,◽,white medium-small square,0.0
+1536,▪,black small square,0.0
+1537,▫,white small square,0.0
+1538,🔶,large orange diamond,0.34
+1539,🔷,large blue diamond,0.34
+1540,🔸,small orange diamond,0.34
+1541,🔹,small blue diamond,0.34
+1542,🔺,red triangle pointed up,0.0
+1543,🔻,red triangle pointed down,0.0
+1544,💠,diamond with a dot,0.34
+1545,🔘,radio button,0.0
+1546,🔳,white square button,0.0
+1547,🔲,black square button,0.0
+1548,🏁,chequered flag,0.0
+1549,🚩,triangular flag,0.0
+1550,🎌,crossed flags,0.0
+1551,🏴,black flag,0.0
+1552,🏳,white flag,0.0
+1553,🏳️‍🌈,rainbow flag,0.0
+1554,🏳️‍⚧️,transgender flag,0.0
+1555,🏴‍☠️,pirate flag,0.0
+1556,🇦🇨,flag: Ascension Island,0.0
+1557,🇦🇩,flag: Andorra,0.0
+1558,🇦🇪,flag: United Arab Emirates,0.42
+1559,🇦🇫,flag: Afghanistan,0.0
+1560,🇦🇬,flag: Antigua & Barbuda,0.0
+1561,🇦🇮,flag: Anguilla,0.0
+1562,🇦🇱,flag: Albania,0.0
+1563,🇦🇲,flag: Armenia,0.0
+1564,🇦🇴,flag: Angola,0.0
+1565,🇦🇶,flag: Antarctica,0.0
+1566,🇦🇷,flag: Argentina,0.0
+1567,🇦🇸,flag: American Samoa,0.0
+1568,🇦🇹,flag: Austria,0.0
+1569,🇦🇺,flag: Australia,0.0
+1570,🇦🇼,flag: Aruba,0.0
+1571,🇦🇽,flag: Åland Islands,0.0
+1572,🇦🇿,flag: Azerbaijan,0.0
+1573,🇧🇦,flag: Bosnia & Herzegovina,0.0
+1574,🇧🇧,flag: Barbados,0.0
+1575,🇧🇩,flag: Bangladesh,0.0
+1576,🇧🇪,flag: Belgium,0.0
+1577,🇧🇫,flag: Burkina Faso,0.0
+1578,🇧🇬,flag: Bulgaria,0.0
+1579,🇧🇭,flag: Bahrain,0.0
+1580,🇧🇮,flag: Burundi,0.0
+1581,🇧🇯,flag: Benin,0.0
+1582,🇧🇱,flag: St. Barthélemy,0.0
+1583,🇧🇲,flag: Bermuda,0.0
+1584,🇧🇳,flag: Brunei,0.0
+1585,🇧🇴,flag: Bolivia,0.0
+1586,🇧🇶,flag: Caribbean Netherlands,0.0
+1587,🇧🇷,flag: Brazil,0.0
+1588,🇧🇸,flag: Bahamas,0.0
+1589,🇧🇹,flag: Bhutan,0.0
+1590,🇧🇻,flag: Bouvet Island,0.0
+1591,🇧🇼,flag: Botswana,0.0
+1592,🇧🇾,flag: Belarus,0.0
+1593,🇧🇿,flag: Belize,0.0
+1594,🇨🇦,flag: Canada,0.0
+1595,🇨🇨,flag: Cocos (Keeling) Islands,0.0
+1596,🇨🇩,flag: Congo - Kinshasa,0.0
+1597,🇨🇫,flag: Central African Republic,0.0
+1598,🇨🇬,flag: Congo - Brazzaville,0.0
+1599,🇨🇭,flag: Switzerland,0.0
+1600,🇨🇮,flag: Côte d’Ivoire,0.0
+1601,🇨🇰,flag: Cook Islands,0.0
+1602,🇨🇱,flag: Chile,0.0
+1603,🇨🇲,flag: Cameroon,0.0
+1604,🇨🇳,flag: China,0.0
+1605,🇨🇴,flag: Colombia,0.0
+1606,🇨🇵,flag: Clipperton Island,0.0
+1607,🇨🇷,flag: Costa Rica,0.0
+1608,🇨🇺,flag: Cuba,0.0
+1609,🇨🇻,flag: Cape Verde,0.0
+1610,🇨🇼,flag: Curaçao,0.0
+1611,🇨🇽,flag: Christmas Island,0.0
+1612,🇨🇾,flag: Cyprus,0.0
+1613,🇨🇿,flag: Czechia,0.0
+1614,🇩🇪,flag: Germany,0.0
+1615,🇩🇬,flag: Diego Garcia,0.0
+1616,🇩🇯,flag: Djibouti,0.0
+1617,🇩🇰,flag: Denmark,0.0
+1618,🇩🇲,flag: Dominica,0.0
+1619,🇩🇴,flag: Dominican Republic,0.0
+1620,🇩🇿,flag: Algeria,0.0
+1621,🇪🇦,flag: Ceuta & Melilla,0.0
+1622,🇪🇨,flag: Ecuador,0.0
+1623,🇪🇪,flag: Estonia,0.0
+1624,🇪🇬,flag: Egypt,0.0
+1625,🇪🇭,flag: Western Sahara,0.0
+1626,🇪🇷,flag: Eritrea,0.0
+1627,🇪🇸,flag: Spain,0.0
+1628,🇪🇹,flag: Ethiopia,0.0
+1629,🇪🇺,flag: European Union,0.0
+1630,🇫🇮,flag: Finland,0.0
+1631,🇫🇯,flag: Fiji,0.0
+1632,🇫🇰,flag: Falkland Islands,0.0
+1633,🇫🇲,flag: Micronesia,0.0
+1634,🇫🇴,flag: Faroe Islands,0.0
+1635,🇫🇷,flag: France,0.0
+1636,🇬🇦,flag: Gabon,0.0
+1637,🇬🇧,flag: United Kingdom,0.42
+1638,🇬🇩,flag: Grenada,0.0
+1639,🇬🇪,flag: Georgia,0.0
+1640,🇬🇫,flag: French Guiana,0.0
+1641,🇬🇬,flag: Guernsey,0.0
+1642,🇬🇭,flag: Ghana,0.0
+1643,🇬🇮,flag: Gibraltar,0.0
+1644,🇬🇱,flag: Greenland,0.0
+1645,🇬🇲,flag: Gambia,0.0
+1646,🇬🇳,flag: Guinea,0.0
+1647,🇬🇵,flag: Guadeloupe,0.0
+1648,🇬🇶,flag: Equatorial Guinea,0.0
+1649,🇬🇷,flag: Greece,0.0
+1650,🇬🇸,flag: South Georgia & South Sandwich Islands,0.0
+1651,🇬🇹,flag: Guatemala,0.0
+1652,🇬🇺,flag: Guam,0.0
+1653,🇬🇼,flag: Guinea-Bissau,0.0
+1654,🇬🇾,flag: Guyana,0.0
+1655,🇭🇰,flag: Hong Kong SAR China,0.0
+1656,🇭🇲,flag: Heard & McDonald Islands,0.0
+1657,🇭🇳,flag: Honduras,0.0
+1658,🇭🇷,flag: Croatia,0.0
+1659,🇭🇹,flag: Haiti,0.0
+1660,🇭🇺,flag: Hungary,0.0
+1661,🇮🇨,flag: Canary Islands,0.0
+1662,🇮🇩,flag: Indonesia,0.0
+1663,🇮🇪,flag: Ireland,0.0
+1664,🇮🇱,flag: Israel,0.0
+1665,🇮🇲,flag: Isle of Man,0.0
+1666,🇮🇳,flag: India,0.0
+1667,🇮🇴,flag: British Indian Ocean Territory,0.0
+1668,🇮🇶,flag: Iraq,0.0
+1669,🇮🇷,flag: Iran,0.0
+1670,🇮🇸,flag: Iceland,0.0
+1671,🇮🇹,flag: Italy,0.0
+1672,🇯🇪,flag: Jersey,0.0
+1673,🇯🇲,flag: Jamaica,0.0
+1674,🇯🇴,flag: Jordan,0.0
+1675,🇯🇵,flag: Japan,0.0
+1676,🇰🇪,flag: Kenya,0.0
+1677,🇰🇬,flag: Kyrgyzstan,0.0
+1678,🇰🇭,flag: Cambodia,0.0
+1679,🇰🇮,flag: Kiribati,0.0
+1680,🇰🇲,flag: Comoros,0.0
+1681,🇰🇳,flag: St. Kitts & Nevis,0.0
+1682,🇰🇵,flag: North Korea,0.0
+1683,🇰🇷,flag: South Korea,0.0
+1684,🇰🇼,flag: Kuwait,0.0
+1685,🇰🇾,flag: Cayman Islands,0.0
+1686,🇰🇿,flag: Kazakhstan,0.0
+1687,🇱🇦,flag: Laos,0.0
+1688,🇱🇧,flag: Lebanon,0.0
+1689,🇱🇨,flag: St. Lucia,0.0
+1690,🇱🇮,flag: Liechtenstein,0.0
+1691,🇱🇰,flag: Sri Lanka,0.0
+1692,🇱🇷,flag: Liberia,0.0
+1693,🇱🇸,flag: Lesotho,0.0
+1694,🇱🇹,flag: Lithuania,0.0
+1695,🇱🇺,flag: Luxembourg,0.0
+1696,🇱🇻,flag: Latvia,0.0
+1697,🇱🇾,flag: Libya,0.0
+1698,🇲🇦,flag: Morocco,0.0
+1699,🇲🇨,flag: Monaco,0.0
+1700,🇲🇩,flag: Moldova,0.0
+1701,🇲🇪,flag: Montenegro,0.0
+1702,🇲🇫,flag: St. Martin,0.0
+1703,🇲🇬,flag: Madagascar,0.0
+1704,🇲🇭,flag: Marshall Islands,0.0
+1705,🇲🇰,flag: North Macedonia,0.0
+1706,🇲🇱,flag: Mali,0.0
+1707,🇲🇲,flag: Myanmar (Burma),0.0
+1708,🇲🇳,flag: Mongolia,0.0
+1709,🇲🇴,flag: Macao SAR China,0.0
+1710,🇲🇵,flag: Northern Mariana Islands,0.0
+1711,🇲🇶,flag: Martinique,0.0
+1712,🇲🇷,flag: Mauritania,0.0
+1713,🇲🇸,flag: Montserrat,0.0
+1714,🇲🇹,flag: Malta,0.0
+1715,🇲🇺,flag: Mauritius,0.0
+1716,🇲🇻,flag: Maldives,0.0
+1717,🇲🇼,flag: Malawi,0.0
+1718,🇲🇽,flag: Mexico,0.0
+1719,🇲🇾,flag: Malaysia,0.0
+1720,🇲🇿,flag: Mozambique,0.0
+1721,🇳🇦,flag: Namibia,0.0
+1722,🇳🇨,flag: New Caledonia,0.0
+1723,🇳🇪,flag: Niger,0.0
+1724,🇳🇫,flag: Norfolk Island,0.0
+1725,🇳🇬,flag: Nigeria,0.0
+1726,🇳🇮,flag: Nicaragua,0.0
+1727,🇳🇱,flag: Netherlands,0.0
+1728,🇳🇴,flag: Norway,0.0
+1729,🇳🇵,flag: Nepal,0.0
+1730,🇳🇷,flag: Nauru,0.0
+1731,🇳🇺,flag: Niue,0.0
+1732,🇳🇿,flag: New Zealand,0.0
+1733,🇴🇲,flag: Oman,0.0
+1734,🇵🇦,flag: Panama,0.0
+1735,🇵🇪,flag: Peru,0.0
+1736,🇵🇫,flag: French Polynesia,0.0
+1737,🇵🇬,flag: Papua New Guinea,0.0
+1738,🇵🇭,flag: Philippines,0.0
+1739,🇵🇰,flag: Pakistan,0.0
+1740,🇵🇱,flag: Poland,0.0
+1741,🇵🇲,flag: St. Pierre & Miquelon,0.0
+1742,🇵🇳,flag: Pitcairn Islands,0.0
+1743,🇵🇷,flag: Puerto Rico,0.0
+1744,🇵🇸,flag: Palestinian Territories,0.0
+1745,🇵🇹,flag: Portugal,0.0
+1746,🇵🇼,flag: Palau,0.0
+1747,🇵🇾,flag: Paraguay,0.0
+1748,🇶🇦,flag: Qatar,0.0
+1749,🇷🇪,flag: Réunion,0.0
+1750,🇷🇴,flag: Romania,0.0
+1751,🇷🇸,flag: Serbia,0.0
+1752,🇷🇺,flag: Russia,0.0
+1753,🇷🇼,flag: Rwanda,0.0
+1754,🇸🇦,flag: Saudi Arabia,0.0
+1755,🇸🇧,flag: Solomon Islands,0.0
+1756,🇸🇨,flag: Seychelles,0.0
+1757,🇸🇩,flag: Sudan,0.0
+1758,🇸🇪,flag: Sweden,0.0
+1759,🇸🇬,flag: Singapore,0.0
+1760,🇸🇭,flag: St. Helena,0.0
+1761,🇸🇮,flag: Slovenia,0.0
+1762,🇸🇯,flag: Svalbard & Jan Mayen,0.0
+1763,🇸🇰,flag: Slovakia,0.0
+1764,🇸🇱,flag: Sierra Leone,0.0
+1765,🇸🇲,flag: San Marino,0.0
+1766,🇸🇳,flag: Senegal,0.0
+1767,🇸🇴,flag: Somalia,0.0
+1768,🇸🇷,flag: Suriname,0.0
+1769,🇸🇸,flag: South Sudan,0.0
+1770,🇸🇹,flag: São Tomé & Príncipe,0.0
+1771,🇸🇻,flag: El Salvador,0.0
+1772,🇸🇽,flag: Sint Maarten,0.0
+1773,🇸🇾,flag: Syria,0.0
+1774,🇸🇿,flag: Eswatini,0.0
+1775,🇹🇦,flag: Tristan da Cunha,0.0
+1776,🇹🇨,flag: Turks & Caicos Islands,0.0
+1777,🇹🇩,flag: Chad,0.0
+1778,🇹🇫,flag: French Southern Territories,0.0
+1779,🇹🇬,flag: Togo,0.0
+1780,🇹🇭,flag: Thailand,0.0
+1781,🇹🇯,flag: Tajikistan,0.0
+1782,🇹🇰,flag: Tokelau,0.0
+1783,🇹🇱,flag: Timor-Leste,0.0
+1784,🇹🇲,flag: Turkmenistan,0.0
+1785,🇹🇳,flag: Tunisia,0.0
+1786,🇹🇴,flag: Tonga,0.0
+1787,🇹🇷,flag: Turkey,0.0
+1788,🇹🇹,flag: Trinidad & Tobago,0.0
+1789,🇹🇻,flag: Tuvalu,0.0
+1790,🇹🇼,flag: Taiwan,0.0
+1791,🇹🇿,flag: Tanzania,0.0
+1792,🇺🇦,flag: Ukraine,0.0
+1793,🇺🇬,flag: Uganda,0.0
+1794,🇺🇲,flag: U.S. Outlying Islands,0.0
+1795,🇺🇳,flag: United Nations,0.42
+1796,🇺🇸,flag: United States,0.42
+1797,🇺🇾,flag: Uruguay,0.0
+1798,🇺🇿,flag: Uzbekistan,0.0
+1799,🇻🇦,flag: Vatican City,0.0
+1800,🇻🇨,flag: St. Vincent & Grenadines,0.0
+1801,🇻🇪,flag: Venezuela,0.0
+1802,🇻🇬,flag: British Virgin Islands,0.0
+1803,🇻🇮,flag: U.S. Virgin Islands,0.0
+1804,🇻🇳,flag: Vietnam,0.0
+1805,🇻🇺,flag: Vanuatu,0.0
+1806,🇼🇫,flag: Wallis & Futuna,0.0
+1807,🇼🇸,flag: Samoa,0.0
+1808,🇽🇰,flag: Kosovo,0.0
+1809,🇾🇪,flag: Yemen,0.0
+1810,🇾🇹,flag: Mayotte,0.0
+1811,🇿🇦,flag: South Africa,0.0
+1812,🇿🇲,flag: Zambia,0.0
+1813,🇿🇼,flag: Zimbabwe,0.0
+1814,🏴󠁧󠁢󠁥󠁮󠁧󠁿,flag: England,0.0
+1815,🏴󠁧󠁢󠁳󠁣󠁴󠁿,flag: Scotland,0.0
+1816,🏴󠁧󠁢󠁷󠁬󠁳󠁿,flag: Wales,0.0
