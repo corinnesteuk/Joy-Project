@@ -1,5 +1,7 @@
 import pandas as pd
 
+'''Adding January 2022 to our Count Joy Tweets and Count Total Tweets in each Month for visualization purposes'''
+
 total_jan_tweets = ['01-2022']
 jan_joy_tweets = ['01-2022']
 j = pd.read_json('L:\Joy/Data/tweets-01-2022.json', lines = True)
