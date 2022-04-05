@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pylab as plt
 import numpy as np
-from tabulate import tabulate
+
 
 
 total_tweets = pd.read_csv('Total-Tweets-Per-Month.csv', names= ['Date', 'Total Tweets'])
@@ -15,7 +15,7 @@ joy_tweets = joy_tweets.rename_axis(["Date"])
 df = total_tweets.join(joy_tweets)
 
 df['Joy Proportion'] = df['Joy Tweets'] /df['Total Tweets']
-
+print(df)
 df = df.reset_index()
 plt.bar(df['Date'], df['Joy Proportion'], color='black')
 plt.xlabel('Month')
