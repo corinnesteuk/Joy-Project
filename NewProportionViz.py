@@ -43,7 +43,7 @@ plt.savefig('Figure2new.png')
 plt.show()
 
 # write dataframe to file as table
-
+all = all.rename(columns = {1: "Total Tweets", 'freq':"Joy Proportion (x10^-4)"})
 table = tabulate(all, headers='keys', tablefmt='psql')
 
 with open('newFigure2-Proportions.txt', 'w') as f:
