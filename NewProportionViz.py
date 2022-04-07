@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
+from tabulate import tabulate
 
 total = pd.read_csv("Total-Tweets-Per-Month.csv", header = None)
 total = total.dropna(axis = 0)
@@ -40,5 +41,12 @@ plt.yticks(np.arange(3, 10, step=.5))
 plt.subplots_adjust(bottom=0.5)
 plt.savefig('Figure2new.png')
 plt.show()
+
+# write dataframe to file as table
+
+table = tabulate(all, headers='keys', tablefmt='psql')
+
+with open('newFigure2-Proportions.txt', 'w') as f:
+    f.write(table)
 
 
