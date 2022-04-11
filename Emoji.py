@@ -1,17 +1,52 @@
 import pandas as pd
-df = pd.read_csv('/Users/corinnesteuk/PycharmProjects/pythonProject/EmojiSentiment.csv')
+import emot
+df = pd.read_csv('/Users/corinnesteuk/PycharmProjects/pythonProject/Joy-11-2021.csv')
 
-#removing unnecessary columns & first row that was a descriptive row
-df = df.drop(0 , axis = 'index')
-df = df.drop(['Unnamed: 1','Unicode name', 'Unicode block','Sentiment bar', 'Occurrences', 'Position'] , axis = 1)
+tweet_emojis = {}
+emoji_meanings = {}
+index = 0
+for tweet in df['content']:
+    # find emoji meanings
+    emot_obj = emot.core.emot()
+    emojis = emot_obj.emoji(tweet)
+    tweet_emojis[index] = emojis['value']
 
-#The emotional intensity of an emoji (which will affect valence & dominance) is equal to the absolute value of sentiment.
-#This is due to the fact that emojis can have multiple, somtimes very constrasting positive/negative meanings
-#and we can not assume this since it is based on the context of the tweet.
-df['Sentiment score'] = df['Sentiment score']. astype(float)
-df['Emot_Intensity']= abs(df['Sentiment score'])
+    # if there are emojis in the tweet replace them with their meanings
+    if len(emojis['value']) > 0:
+        e = []
+        for i in range(len(emojis['value'])):
 
-#convert from 0 to 1 scale --> 0.5 to 1
-df['Emot_Intensity'] = (df['Emot_Intensity']/2) + 0.5
+            meaning = emojis['mean'][i]
+            clean_meaning = meaning.replace("_", " ")
+            clean_meaning = clean_meaning.replace(":", "")
+            e.append(clean_meaning)
+        emoji_meanings[index] = e
+    else:
+        emoji_meanings[index] = "Null"
+    index += 1
 
-df.to_csv('/Users/corinnesteuk/PycharmProjects/pythonProject/EmojiIntensity.csv')
+#dictionary of the actual emoji pictures (key: index, value: list of emoji pictures)
+# print(tweet_emojis)
+#dictionary of the emoji meanings (key: index, value: list of cleaned string emoji meanings)
+# print(emoji_meanings)
+
+val = emoji_meanings.values()
+val1 = []
+for i in val:
+    if i != "Null":
+        for j in i:
+            val1.append(j)
+
+def check(listOfElems):
+    emoji_count = {}
+    ''' Check if given list contains any duplicates '''
+    for elem in listOfElems:
+        emoji_count[elem] = listOfElems.count(elem)
+    return emoji_count
+
+#dictionary- key: emoji textual meaning; value: number of times it shows up in data
+emoji_count = check(val1)
+
+
+
+
