@@ -3,6 +3,7 @@ import json
 import nltk
 
 
+# add a column to the dataframe to indicate if a tweet includes the word joy
 
 # months = []
 # for date in dates:

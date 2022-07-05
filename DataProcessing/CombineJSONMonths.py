@@ -1,12 +1,13 @@
 
+# combine all files for one month in a given year
+# run separately for each month in each year and enter number of days
+
 import pandas as pd
 import json
 from datetime import datetime
 
 
-# combine all files for one month in a given year
-# run separately for each month in each year and enter number of days
-
+# combine month files for one year into one
 def combine_month(year, month, num_days):
 
     first_file = 'L:\Joy/Data/tweets-' + str(year) + '-' + str(month) + '-01.json'
@@ -22,13 +23,6 @@ def combine_month(year, month, num_days):
 
         print(date)
 
-        '''
-        # playing around with dropping categories and indexing by id
-        j = pd.read_json(read_file, lines = True)
-        j = j.drop(columns = ['_type', 'url', 'cashtags'])
-        #j = j.set_index(['id'])
-        print(j)
-        '''
     
         f2data = "" 
 
